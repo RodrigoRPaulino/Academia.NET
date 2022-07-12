@@ -27,7 +27,7 @@ namespace ProjetoFinal_RodrigoPaulino.Controllers
         {
             return View();
         }
-        public IActionResult Apagar()
+        public IActionResult ApagarConfirmar()
         {
             return View();
         }
