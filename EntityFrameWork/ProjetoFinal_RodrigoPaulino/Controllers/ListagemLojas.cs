@@ -16,7 +16,8 @@ namespace ProjetoFinal_RodrigoPaulino.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            List<LojasModel> lojas = _repositorioLojas.ExibirTodos();
+            return View(lojas);
         }
        
         public IActionResult Cadastrar()

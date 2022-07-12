@@ -10,6 +10,10 @@ namespace ProjetoFinal_RodrigoPaulino.Repositorio
         {
                 _bancoContext = bancoContext;
         }
+        public List<LojasModel> ExibirTodos()
+        {
+            return _bancoContext.lojas.ToList();
+        }
         //método para inserir informacoes na tabela 
         public LojasModel Cadastrar(LojasModel lojas)
         {
@@ -20,5 +24,7 @@ namespace ProjetoFinal_RodrigoPaulino.Repositorio
             //retorno para loja
             return lojas;
         }
+
+     
     }
 }
