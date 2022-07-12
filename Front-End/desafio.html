@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+
+    <head>
+        <!-- Metadados -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="desafio.css">
+        <!-- Título da página (aparece na aba) -->
+        <title>Cadastro</title>
+    </head>
+    
+    <body> 
+       
+        <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+        <div>
+            <h1 id="titulo">Academia Atos UFN</h1>
+            <p id="subtitulo"><strong>Cadastro de alunos</strong></p>
+            <br>
+        </div>
+        <!-- Início do formulário -->
+        <form id="formulario">       
+
+            <fieldset class="grupo">
+                <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                <div class="campo">
+                    
+                    <label for="nome"><strong>Nome <span class="text-danger">*</span></strong></label>
+                    <input type="text" name="nome" id="nome"pattern="^[A-Za-z]+$" title="Somente letras" required>
+                </div>
+
+                <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome <span class="text-danger">*</span></strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome"pattern="^[A-Za-z]+$" title="Somente letras" required>
+                </div>
+           
+            </fieldset> 
+            <fieldset class="grupo">
+                <!-- Campo do nome com legenda "email" -->
+                <div class="campo">
+                    <label for="email"><strong>Email <span class="text-danger">*</span></strong></label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <!-- Campo do sobrenome com legenda "login" -->
+                <div class="campo">
+                    <label for="login"><strong>Login</strong></label>
+                    <input type="text" name="login" id="login" readonly>
+                </div>        
+           
+            </fieldset> 
+            <fieldset class="grupo">
+                <!-- Campo do nome com legenda "senha" -->
+                <div class="campo">
+                    <label for="senha"><strong>Senha</strong></label>
+                    <input type="password" name="senha" id="senha">
+                </div>
+
+                <!-- Campo do sobrenome com legenda "Cep"-->
+                <div class="campo">
+                    <label for="cep"><strong>CEP</strong></label>
+                    <input type="text" name="cep" id="cep">
+                </div>
+                 
+           
+            </fieldset>
+
+            <fieldset class="grupo">
+                <!-- Campo do nome com legenda "endereço"-->
+                <div class="campo">
+                    <label for="endereco"><strong>Endereço</strong></label>
+                    <input type="text" name="endereco" id="endereco">
+                </div>
+
+                <!-- Campo do sobrenome com legenda "complemento"-->
+                <div class="campo">
+                    <label for="complemento"><strong>Complemento</strong></label>
+                    <input type="text" name="complemento" id="complemento">
+                </div>               
+            </fieldset>    
+
+            <fieldset class="grupo">
+                <!-- Campo do nome com legenda "bairro"-->
+                <div class="campo">
+                    <label for="bairro"><strong>Bairro</strong></label>
+                    <input type="text" name="bairro" id="bairro">
+                </div>
+
+                <!-- Campo do sobrenome com legenda "cidade" -->
+                <div class="campo">
+                    <label for="cidade"><strong>Cidade</strong></label>
+                    <input type="text" name="cidade" id="cidade">
+                </div>               
+            </fieldset>
+
+            <fieldset class="grupo">
+                <!-- Campo do nome com legenda "estado"-->
+                <div class="campo">
+                    <label for="estado"><strong>Estado</strong></label>
+                    <input type="text" name="estado" id="estado">
+                </div>
+
+                <!-- Campo do sobrenome com legenda "Perfil do GitHub"-->
+                <div class="campo">
+                    <label for="perfil"><strong>Perfil do GitHub</strong></label>
+                    <input type="text" name="github" id="github">
+                </div>               
+            </fieldset>
+
+            <!-- Campo de cursos com 2 opções de escolha (select option)-->
+      
+            <div class="cursos">
+                <label for="academia"><strong>Academia</strong></label>
+                <select id="academia" required>
+                  <option selected disabled value="">Selecionar</option>
+                  <option>Java</option>
+                  <option>.NET</option>
+                </select>
+            </div>
+            <br>
+            <!--Campo para tratar sobre os professores com 3 opções de escolha (select option)-->
+            <div class="educadores">
+                <label for="professores"><strong>Educadores</strong></label>
+                <select id="professores" required>
+                  <option selected disabled value="">Selecionar</option>
+                  <option>Alexandre de Oliveira Zamberlan</option>
+                  <option>Deivison Pasa</option>
+                  <option>Ricardo Frohlich da Silva</option>
+                </select>
+            </div>
+            <br><br>
+            <hr class="termos">
+            <!--Campo para exibir os termos de uso -->
+            <section class="termos">
+                <h2>Termos legais</h2>
+                <div>
+                    <textarea id="caixatexto" rows="20" cols="120" readonly>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus, est id posuere mattis, dui nunc lacinia urna, ac vulputate ipsum augue vel enim. Sed malesuada a elit eu vehicula. Integer at metus bibendum, viverra nibh ut, laoreet lorem. Sed maximus hendrerit semper. Proin eget eros nec ante placerat malesuada. Aenean volutpat accumsan nulla, et sodales ex lobortis sed. Aliquam mattis nisi turpis, eu commodo nulla placerat in. Nulla sit amet euismod est. Nam lacinia, orci vel gravida gravida, mauris elit eleifend magna, a ullamcorper sapien nunc quis ex. Ut egestas rutrum sem in luctus. Sed cursus massa ut venenatis vestibulum.
+                    Nunc nec sapien at orci sodales condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed scelerisque aliquet velit, eleifend iaculis arcu consequat in. Maecenas finibus consequat tortor, nec fermentum mauris accumsan a. Aenean consequat, quam sed ultricies feugiat, arcu enim finibus tellus, sed venenatis ipsum lorem id velit. Vestibulum ut dolor ex. Maecenas finibus nisl ut leo lacinia, pulvinar laoreet risus posuere. Proin in accumsan mauris. Nulla gravida elit non lectus tristique, ut pharetra lectus ullamcorper. Nam in velit nisl. Praesent interdum urna ornare nisi congue aliquam. Fusce arcu mauris, mollis et tristique eget, tristique ut dui.
+                    Quisque sed volutpat odio. Sed ornare blandit lorem vel fringilla. Cras mi nisl, interdum quis molestie mattis, placerat in nisi. Proin mollis orci quis tortor sollicitudin, condimentum interdum odio accumsan. Maecenas eu ornare dolor, eget cursus magna. Vivamus condimentum, quam ac blandit volutpat, tortor lectus vehicula lacus, vitae pellentesque risus odio non arcu. Quisque ultrices non nibh id ullamcorper. Vivamus eget sagittis lacus. Suspendisse eu tortor et lectus convallis lobortis vitae id arcu. Nam dignissim nulla eget scelerisque cursus.
+                    In elit tellus, commodo ac ullamcorper eu, eleifend a quam. Praesent convallis neque eu felis porttitor, ac molestie risus laoreet. Vestibulum congue fringilla tortor, a tincidunt eros venenatis et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed feugiat ligula, ut ultricies dui. Morbi a eros orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut faucibus urna mi, non malesuada nunc iaculis elementum. Pellentesque ullamcorper sem sit amet diam tempus aliquam eu at dui. Nunc molestie, arcu id mollis tempor, tellus magna bibendum elit, ac varius velit elit id eros.
+                    Nulla gravida semper ante. Pellentesque nisi quam, suscipit sed viverra ut, commodo at tortor. Nulla volutpat molestie lacus, in pellentesque enim fringilla in. In sollicitudin sem venenatis iaculis sagittis. Maecenas et fermentum neque, vitae vestibulum enim. Ut id neque quis ante aliquam dapibus. Duis efficitur sollicitudin gravida. Maecenas metus tortor, maximus ut tempus at, ornare eu nulla. Donec lacus risus, sagittis ut venenatis ut, suscipit vitae erat. Mauris dui nisl, scelerisque et nisl id, volutpat tempus eros. Quisque dignissim justo pharetra venenatis ultrices. Nullam ullamcorper justo nec elit tristique, et dignissim erat ornare. Suspendisse erat massa, fermentum a convallis eu, dapibus eu nisl. Pellentesque aliquet semper augue at feugiat.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rerum corrupti iste a aliquid soluta. Labore a mollitia quo porro quasi omnis, officiis commodi debitis repellat nihil, iste vero fugiat.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus, est id posuere mattis, dui nunc lacinia urna, ac vulputate ipsum augue vel enim. Sed malesuada a elit eu vehicula. Integer at metus bibendum, viverra nibh ut, laoreet lorem. Sed maximus hendrerit semper. Proin eget eros nec ante placerat malesuada. Aenean volutpat accumsan nulla, et sodales ex lobortis sed. Aliquam mattis nisi turpis, eu commodo nulla placerat in. Nulla sit amet euismod est. Nam lacinia, orci vel gravida gravida, mauris elit eleifend magna, a ullamcorper sapien nunc quis ex. Ut egestas rutrum sem in luctus. Sed cursus massa ut venenatis vestibulum.
+                    Nunc nec sapien at orci sodales condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed scelerisque aliquet velit, eleifend iaculis arcu consequat in. Maecenas finibus consequat tortor, nec fermentum mauris accumsan a. Aenean consequat, quam sed ultricies feugiat, arcu enim finibus tellus, sed venenatis ipsum lorem id velit. Vestibulum ut dolor ex. Maecenas finibus nisl ut leo lacinia, pulvinar laoreet risus posuere. Proin in accumsan mauris. Nulla gravida elit non lectus tristique, ut pharetra lectus ullamcorper. Nam in velit nisl. Praesent interdum urna ornare nisi congue aliquam. Fusce arcu mauris, mollis et tristique eget, tristique ut dui.
+                    Quisque sed volutpat odio. Sed ornare blandit lorem vel fringilla. Cras mi nisl, interdum quis molestie mattis, placerat in nisi. Proin mollis orci quis tortor sollicitudin, condimentum interdum odio accumsan. Maecenas eu ornare dolor, eget cursus magna. Vivamus condimentum, quam ac blandit volutpat, tortor lectus vehicula lacus, vitae pellentesque risus odio non arcu. Quisque ultrices non nibh id ullamcorper. Vivamus eget sagittis lacus. Suspendisse eu tortor et lectus convallis lobortis vitae id arcu. Nam dignissim nulla eget scelerisque cursus.
+                    In elit tellus, commodo ac ullamcorper eu, eleifend a quam. Praesent convallis neque eu felis porttitor, ac molestie risus laoreet. Vestibulum congue fringilla tortor, a tincidunt eros venenatis et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed feugiat ligula, ut ultricies dui. Morbi a eros orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut faucibus urna mi, non malesuada nunc iaculis elementum. Pellentesque ullamcorper sem sit amet diam tempus aliquam eu at dui. Nunc molestie, arcu id mollis tempor, tellus magna bibendum elit, ac varius velit elit id eros.
+                    Nulla gravida semper ante. Pellentesque nisi quam, suscipit sed viverra ut, commodo at tortor. Nulla volutpat molestie lacus, in pellentesque enim fringilla in. In sollicitudin sem venenatis iaculis sagittis. Maecenas et fermentum neque, vitae vestibulum enim. Ut id neque quis ante aliquam dapibus. Duis efficitur sollicitudin gravida. Maecenas metus tortor, maximus ut tempus at, ornare eu nulla. Donec lacus risus, sagittis ut venenatis ut, suscipit vitae erat. Mauris dui nisl, scelerisque et nisl id, volutpat tempus eros. Quisque dignissim justo pharetra venenatis ultrices. Nullam ullamcorper justo nec elit tristique, et dignissim erat ornare. Suspendisse erat massa, fermentum a convallis eu, dapibus eu nisl. Pellentesque aliquet semper augue at feugiat.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rerum corrupti iste a aliquid soluta. Labore a mollitia quo porro quasi omnis, officiis commodi debitis repellat nihil, iste vero fugiat.</textarea>
+                    <div>
+                        <!--checkbox para confirmar a leitura do termo-->
+                        <input type="checkbox" class="caixaAceite" id="termos" required>
+                        <label class="form-check-label" for="sim">Eu li e concordo os termos descritos
+                            acima.</label>
+                    </div>
+                    <br>
+                    <!--radio para marcar opção sim para receber novidades por email-->
+                    <div>
+                        <input name="info" id="sim" type="radio" class="caixa-Confirma" value="sim" checked>
+                        <label class="label-confirma" for="info-nao">Quero receber informações e novidades pelo
+                            e-mail</label>
+                    </div>
+                    <br>
+                    <!--radio para marcar opção nao para receber novidades por email-->
+                    <div class="form-check">
+                        <input name="info" id="nao" type="radio" class="form-check-input" value="nao">
+                        <label class="form-check-label" for="info-nao">Não quero receber informações e novidades
+                            pelo e-mail</label>
+                    </div>
+                </div>
+            </section>
+            <br><br>
+            <!--Botão do tipo submit para aceitar e continuar-->
+            <button class="botao" type="submit" id="botao"> Aceitar e Continuar</button>      
+        </form>
+        <br><br>
+       <!--Tabela de dados que sera preenchida apos clicar no botão-->
+        <section id="tabela-dados">
+            <table class="tabela">
+                <thead>
+                    <tr>
+                        <th colspan="2"> Dados Fornecidos pelo aluno</th>
+                    </tr>
+                </thead>
+           
+                <tbody>
+                    <tr>
+                        <td>Nome</td>
+                        <td id="t-nome"></td>     
+                    </tr>
+                    <tr>
+                        <td>Sobrenome</td>
+                        <td id="t-sobrenome"></td>   
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td id="t-email"></td>  
+                    </tr>
+                    <tr>
+                        <td>Login</td>  
+                        <td id="t-login"></td> 
+                    </tr>
+                    <tr>
+                        <td>Senha</td>
+                        <td id="t-senha"></td>
+                    </tr>
+                    <tr>
+                        <td>CEP</td>
+                        <td id="t-cep"></td>
+                    </tr>
+                    <tr>
+                        <td>Endereço</td>
+                        <td id="t-endereco"></td>
+                    </tr>
+                    <tr>
+                        <td>Complemento</td>
+                        <td id="t-complemento"></td>
+                    </tr>
+                    <tr>
+                        <td>Bairro</td>
+                        <td id="t-bairro"></td>
+                    </tr>
+                    <tr>
+                        <td>Cidade</td>
+                        <td id="t-cidade"></td>
+                    </tr>
+                    <tr>
+                        <td>Estado</td>
+                        <td id="t-estado"></td>
+                    </tr>
+                    <tr>
+                        <td>GitHub</td>
+                        <td id="t-github"></td>
+                    </tr>
+                    <tr>
+                        <td>Academia</td>
+                        <td id="t-academia"></td>
+                    </tr>
+                    <tr>
+                        <td>Professor</td>
+                        <td id="t-professores"></td>
+                    </tr>
+                    <tr>
+                        <td>Termos legais</td>
+                        <td id="t-termos"></td>
+                    </tr>
+                    <tr>
+                        <td>Receber informativos</td>
+                        <td id="t-info"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        
+        <script src="desafio.js"></script> 
+    </body>
+</html>
