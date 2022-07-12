@@ -1,0 +1,15 @@
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop6_EscrevendoNomesEEmails\bin\Debug\net6.0\Drop6_EscrevendoNomesEEmails.exe
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop6_EscrevendoNomesEEmails\bin\Debug\net6.0\Drop6_EscrevendoNomesEEmails.deps.json
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop6_EscrevendoNomesEEmails\bin\Debug\net6.0\Drop6_EscrevendoNomesEEmails.runtimeconfig.json
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop6_EscrevendoNomesEEmails\bin\Debug\net6.0\Drop6_EscrevendoNomesEEmails.dll
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop6_EscrevendoNomesEEmails\bin\Debug\net6.0\Drop6_EscrevendoNomesEEmails.pdb
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop6_EscrevendoNomesEEmails\obj\Debug\net6.0\Drop6_EscrevendoNomesEEmails.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop6_EscrevendoNomesEEmails\obj\Debug\net6.0\Drop6_EscrevendoNomesEEmails.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop6_EscrevendoNomesEEmails\obj\Debug\net6.0\Drop6_EscrevendoNomesEEmails.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop6_EscrevendoNomesEEmails\obj\Debug\net6.0\Drop6_EscrevendoNomesEEmails.AssemblyInfo.cs
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop6_EscrevendoNomesEEmails\obj\Debug\net6.0\Drop6_EscrevendoNomesEEmails.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop6_EscrevendoNomesEEmails\obj\Debug\net6.0\Drop6_EscrevendoNomesEEmails.dll
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop6_EscrevendoNomesEEmails\obj\Debug\net6.0\refint\Drop6_EscrevendoNomesEEmails.dll
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop6_EscrevendoNomesEEmails\obj\Debug\net6.0\Drop6_EscrevendoNomesEEmails.pdb
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop6_EscrevendoNomesEEmails\obj\Debug\net6.0\Drop6_EscrevendoNomesEEmails.genruntimeconfig.cache
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop6_EscrevendoNomesEEmails\obj\Debug\net6.0\ref\Drop6_EscrevendoNomesEEmails.dll

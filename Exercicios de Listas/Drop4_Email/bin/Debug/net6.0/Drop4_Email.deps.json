@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Drop4_Email/1.0.0": {
+        "runtime": {
+          "Drop4_Email.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Drop4_Email/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

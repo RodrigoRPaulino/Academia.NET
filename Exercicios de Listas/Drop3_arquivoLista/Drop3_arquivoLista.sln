@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drop3_arquivoLista", "Drop3_arquivoLista.csproj", "{16696ABD-DB33-468B-B2BA-65538348AEB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16696ABD-DB33-468B-B2BA-65538348AEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16696ABD-DB33-468B-B2BA-65538348AEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16696ABD-DB33-468B-B2BA-65538348AEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16696ABD-DB33-468B-B2BA-65538348AEB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {152AA5E8-6153-427E-A811-FFB02FA78D28}
+	EndGlobalSection
+EndGlobal

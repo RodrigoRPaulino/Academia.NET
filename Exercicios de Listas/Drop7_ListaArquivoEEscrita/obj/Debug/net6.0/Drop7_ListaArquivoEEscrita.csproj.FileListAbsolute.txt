@@ -1,0 +1,15 @@
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop7_ListaArquivoEEscrita\obj\Debug\net6.0\Drop7_ListaArquivoEEscrita.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop7_ListaArquivoEEscrita\obj\Debug\net6.0\Drop7_ListaArquivoEEscrita.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop7_ListaArquivoEEscrita\obj\Debug\net6.0\Drop7_ListaArquivoEEscrita.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop7_ListaArquivoEEscrita\obj\Debug\net6.0\Drop7_ListaArquivoEEscrita.AssemblyInfo.cs
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop7_ListaArquivoEEscrita\obj\Debug\net6.0\Drop7_ListaArquivoEEscrita.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop7_ListaArquivoEEscrita\bin\Debug\net6.0\Drop7_ListaArquivoEEscrita.exe
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop7_ListaArquivoEEscrita\bin\Debug\net6.0\Drop7_ListaArquivoEEscrita.deps.json
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop7_ListaArquivoEEscrita\bin\Debug\net6.0\Drop7_ListaArquivoEEscrita.runtimeconfig.json
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop7_ListaArquivoEEscrita\bin\Debug\net6.0\Drop7_ListaArquivoEEscrita.dll
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop7_ListaArquivoEEscrita\bin\Debug\net6.0\Drop7_ListaArquivoEEscrita.pdb
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop7_ListaArquivoEEscrita\obj\Debug\net6.0\Drop7_ListaArquivoEEscrita.dll
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop7_ListaArquivoEEscrita\obj\Debug\net6.0\refint\Drop7_ListaArquivoEEscrita.dll
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop7_ListaArquivoEEscrita\obj\Debug\net6.0\Drop7_ListaArquivoEEscrita.pdb
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop7_ListaArquivoEEscrita\obj\Debug\net6.0\Drop7_ListaArquivoEEscrita.genruntimeconfig.cache
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Listas\Drop7_ListaArquivoEEscrita\obj\Debug\net6.0\ref\Drop7_ListaArquivoEEscrita.dll
