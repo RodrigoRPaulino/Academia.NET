@@ -1,0 +1,30 @@
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicios Divisao\ExercicioDivisao\bin\Debug\net6.0\ExercicioDivisao.exe
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicios Divisao\ExercicioDivisao\bin\Debug\net6.0\ExercicioDivisao.deps.json
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicios Divisao\ExercicioDivisao\bin\Debug\net6.0\ExercicioDivisao.runtimeconfig.json
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicios Divisao\ExercicioDivisao\bin\Debug\net6.0\ExercicioDivisao.dll
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicios Divisao\ExercicioDivisao\bin\Debug\net6.0\ExercicioDivisao.pdb
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicios Divisao\ExercicioDivisao\obj\Debug\net6.0\ExercicioDivisao.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicios Divisao\ExercicioDivisao\obj\Debug\net6.0\ExercicioDivisao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicios Divisao\ExercicioDivisao\obj\Debug\net6.0\ExercicioDivisao.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicios Divisao\ExercicioDivisao\obj\Debug\net6.0\ExercicioDivisao.AssemblyInfo.cs
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicios Divisao\ExercicioDivisao\obj\Debug\net6.0\ExercicioDivisao.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicios Divisao\ExercicioDivisao\obj\Debug\net6.0\ExercicioDivisao.dll
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicios Divisao\ExercicioDivisao\obj\Debug\net6.0\refint\ExercicioDivisao.dll
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicios Divisao\ExercicioDivisao\obj\Debug\net6.0\ExercicioDivisao.pdb
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicios Divisao\ExercicioDivisao\obj\Debug\net6.0\ExercicioDivisao.genruntimeconfig.cache
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicios Divisao\ExercicioDivisao\obj\Debug\net6.0\ref\ExercicioDivisao.dll
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicio10\ExercicioDivisao\bin\Debug\net6.0\ExercicioDivisao.exe
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicio10\ExercicioDivisao\bin\Debug\net6.0\ExercicioDivisao.deps.json
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicio10\ExercicioDivisao\bin\Debug\net6.0\ExercicioDivisao.runtimeconfig.json
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicio10\ExercicioDivisao\bin\Debug\net6.0\ExercicioDivisao.dll
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicio10\ExercicioDivisao\bin\Debug\net6.0\ExercicioDivisao.pdb
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicio10\ExercicioDivisao\obj\Debug\net6.0\ExercicioDivisao.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicio10\ExercicioDivisao\obj\Debug\net6.0\ExercicioDivisao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicio10\ExercicioDivisao\obj\Debug\net6.0\ExercicioDivisao.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicio10\ExercicioDivisao\obj\Debug\net6.0\ExercicioDivisao.AssemblyInfo.cs
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicio10\ExercicioDivisao\obj\Debug\net6.0\ExercicioDivisao.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicio10\ExercicioDivisao\obj\Debug\net6.0\ExercicioDivisao.dll
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicio10\ExercicioDivisao\obj\Debug\net6.0\refint\ExercicioDivisao.dll
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicio10\ExercicioDivisao\obj\Debug\net6.0\ExercicioDivisao.pdb
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicio10\ExercicioDivisao\obj\Debug\net6.0\ExercicioDivisao.genruntimeconfig.cache
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Exercicio10\ExercicioDivisao\obj\Debug\net6.0\ref\ExercicioDivisao.dll
