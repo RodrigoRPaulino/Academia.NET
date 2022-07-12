@@ -1,0 +1,15 @@
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Repetição\Exercicio_8\Exercicio_8\bin\Debug\net6.0\Exercicio_8.exe
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Repetição\Exercicio_8\Exercicio_8\bin\Debug\net6.0\Exercicio_8.deps.json
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Repetição\Exercicio_8\Exercicio_8\bin\Debug\net6.0\Exercicio_8.runtimeconfig.json
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Repetição\Exercicio_8\Exercicio_8\bin\Debug\net6.0\Exercicio_8.dll
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Repetição\Exercicio_8\Exercicio_8\bin\Debug\net6.0\Exercicio_8.pdb
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Repetição\Exercicio_8\Exercicio_8\obj\Debug\net6.0\Exercicio_8.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Repetição\Exercicio_8\Exercicio_8\obj\Debug\net6.0\Exercicio_8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Repetição\Exercicio_8\Exercicio_8\obj\Debug\net6.0\Exercicio_8.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Repetição\Exercicio_8\Exercicio_8\obj\Debug\net6.0\Exercicio_8.AssemblyInfo.cs
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Repetição\Exercicio_8\Exercicio_8\obj\Debug\net6.0\Exercicio_8.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Repetição\Exercicio_8\Exercicio_8\obj\Debug\net6.0\Exercicio_8.dll
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Repetição\Exercicio_8\Exercicio_8\obj\Debug\net6.0\refint\Exercicio_8.dll
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Repetição\Exercicio_8\Exercicio_8\obj\Debug\net6.0\Exercicio_8.pdb
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Repetição\Exercicio_8\Exercicio_8\obj\Debug\net6.0\Exercicio_8.genruntimeconfig.cache
+C:\Users\PC\source\repos\ExerciciosAcademia.NET\Academia.Net\Exercicios de Repetição\Exercicio_8\Exercicio_8\obj\Debug\net6.0\ref\Exercicio_8.dll
