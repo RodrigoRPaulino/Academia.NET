@@ -1,0 +1,15 @@
+C:\Users\PC\source\repos\Academia.Net\Academia.Net\Exercicios_OO\ProblemaEmail\bin\Debug\net6.0\ProblemaEmail.exe
+C:\Users\PC\source\repos\Academia.Net\Academia.Net\Exercicios_OO\ProblemaEmail\bin\Debug\net6.0\ProblemaEmail.deps.json
+C:\Users\PC\source\repos\Academia.Net\Academia.Net\Exercicios_OO\ProblemaEmail\bin\Debug\net6.0\ProblemaEmail.runtimeconfig.json
+C:\Users\PC\source\repos\Academia.Net\Academia.Net\Exercicios_OO\ProblemaEmail\bin\Debug\net6.0\ProblemaEmail.dll
+C:\Users\PC\source\repos\Academia.Net\Academia.Net\Exercicios_OO\ProblemaEmail\bin\Debug\net6.0\ProblemaEmail.pdb
+C:\Users\PC\source\repos\Academia.Net\Academia.Net\Exercicios_OO\ProblemaEmail\obj\Debug\net6.0\ProblemaEmail.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Academia.Net\Academia.Net\Exercicios_OO\ProblemaEmail\obj\Debug\net6.0\ProblemaEmail.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\Academia.Net\Academia.Net\Exercicios_OO\ProblemaEmail\obj\Debug\net6.0\ProblemaEmail.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\Academia.Net\Academia.Net\Exercicios_OO\ProblemaEmail\obj\Debug\net6.0\ProblemaEmail.AssemblyInfo.cs
+C:\Users\PC\source\repos\Academia.Net\Academia.Net\Exercicios_OO\ProblemaEmail\obj\Debug\net6.0\ProblemaEmail.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Academia.Net\Academia.Net\Exercicios_OO\ProblemaEmail\obj\Debug\net6.0\ProblemaEmail.dll
+C:\Users\PC\source\repos\Academia.Net\Academia.Net\Exercicios_OO\ProblemaEmail\obj\Debug\net6.0\refint\ProblemaEmail.dll
+C:\Users\PC\source\repos\Academia.Net\Academia.Net\Exercicios_OO\ProblemaEmail\obj\Debug\net6.0\ProblemaEmail.pdb
+C:\Users\PC\source\repos\Academia.Net\Academia.Net\Exercicios_OO\ProblemaEmail\obj\Debug\net6.0\ProblemaEmail.genruntimeconfig.cache
+C:\Users\PC\source\repos\Academia.Net\Academia.Net\Exercicios_OO\ProblemaEmail\obj\Debug\net6.0\ref\ProblemaEmail.dll
