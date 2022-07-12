@@ -6,14 +6,14 @@ namespace ProjetoFinal_RodrigoPaulino.Controllers
 {
     public class ListagemLojas : Controller
     {
-        //// crio a variavel extraindo o Irepositoriolojas 
-        //private readonly IRepositorioLojas _repositorioLojas;
-        ////crio uma classe e importo o repositor de lojas fazendo sua injeção
-        //public ListagemLojas(IRepositorioLojas repositorioLojas)
-        //{
-        //    //injeção de dependencia
-        //    _repositorioLojas = repositorioLojas;
-        //}
+        // crio a variavel extraindo o Irepositoriolojas 
+        private readonly IRepositorioLojas _repositorioLojas;
+        //crio uma classe e importo o repositor de lojas fazendo sua injeção
+        public ListagemLojas(IRepositorioLojas repositorioLojas)
+        {
+            //injeção de dependencia
+            _repositorioLojas = repositorioLojas;
+        }
         public IActionResult Index()
         {
             return View();
@@ -31,15 +31,15 @@ namespace ProjetoFinal_RodrigoPaulino.Controllers
         {
             return View();
         }
-        ////vou informar que esse método e do tipo HttpPost
-        //[HttpPost]
-        ////método para adicionar lojas
-        //public IActionResult AdicionarLoja(LojasModel lojas)
-        //{
+        //vou informar que esse método e do tipo HttpPost
+        [HttpPost]
+        //método para adicionar lojas
+        public IActionResult Cadastrar(LojasModel lojas)
+        {
 
-        //    _repositorioLojas.Adicionar(lojas);
-        //    //retorno redirecionando a index 
-        //    return RedirectToAction("Index");
-        //}
+            _repositorioLojas.Cadastrar(lojas);
+            //retorno redirecionando a index 
+            return RedirectToAction("Index");
+        }
     }
 }

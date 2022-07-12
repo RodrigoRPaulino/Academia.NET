@@ -11,7 +11,7 @@ using ProjetoFinal_RodrigoPaulino.Data;
 namespace ProjetoFinal_RodrigoPaulino.Migrations
 {
     [DbContext(typeof(BancoContext))]
-    [Migration("20220710180219_CreateTabelaLojas")]
+    [Migration("20220712190805_CreateTabelaLojas")]
     partial class CreateTabelaLojas
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -36,6 +36,10 @@ namespace ProjetoFinal_RodrigoPaulino.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NomeLoja")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Telefone")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

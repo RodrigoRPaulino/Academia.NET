@@ -11,14 +11,14 @@ namespace ProjetoFinal_RodrigoPaulino.Repositorio
                 _bancoContext = bancoContext;
         }
         //método para inserir informacoes na tabela 
-        public LojasModel Adicionar(LojasModel loja)
+        public LojasModel Cadastrar(LojasModel lojas)
         {
             //Gravar no banco de dados
-            _bancoContext.lojas.Add(loja);
+            _bancoContext.lojas.Add(lojas);
             // aqui comitamos a informação 
             _bancoContext.SaveChanges();
             //retorno para loja
-            return loja;
+            return lojas;
         }
     }
 }

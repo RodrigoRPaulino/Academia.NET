@@ -15,7 +15,8 @@ namespace ProjetoFinal_RodrigoPaulino.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     NomeLoja = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Localizacao = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Localizacao = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Telefone = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {

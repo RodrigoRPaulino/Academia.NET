@@ -4,6 +4,6 @@ namespace ProjetoFinal_RodrigoPaulino.Repositorio
 {
     public interface IRepositorioLojas
     {
-        LojasModel Adicionar(LojasModel loja);
+        LojasModel Cadastrar(LojasModel lojas);
     }
 }

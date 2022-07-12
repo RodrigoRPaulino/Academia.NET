@@ -10,8 +10,8 @@ namespace ProjetoFinal_RodrigoPaulino.Data
         {
 
         }
-
-        public DbSet<LojasModel> lojas { get; set; }
+        // LojasModel representa o banco de dados lojas sera o nome da minha tabela
+        public DbSet<LojasModel> lojas{ get; set; }
        
            
     }

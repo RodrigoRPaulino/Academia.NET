@@ -1,21 +1,22 @@
-﻿@{
+﻿@model LojasModel
+@{
     ViewData["Title"] = "Cadastro de lojas";
 }
 <div class="text-center">
     <h1 class="display-4">Novo Cadastro</h1>
 </div>
-<form>
+<form asp-controller="ListagemLojas" asp-action="Cadastrar" method="post">
     <div class="form-group">
         <label for="loja"><strong>Loja</strong></label>
-        <input type="text" class="form-control" placeholder="Digite o nome da loja">
+        <input type="text" asp-for="NomeLoja" class="form-control" placeholder="Digite o nome da loja">
     </div>
     <div class="form-group">
         <label for="localizacao"><strong>Localização</strong></label>
-        <input type="text" class="form-control" placeholder="Digite o endereço da loja">
+        <input type="text"asp-for="Localizacao" class="form-control" placeholder="Digite o endereço da loja">
     </div>
     <div class="form-group">
         <label for="telefone"><strong>Telefone</strong></label>
-        <input type="text" class="form-control" placeholder="Digite o telefone">
+        <input type="text" asp-for="Telefone" class="form-control" placeholder="Digite o telefone">
     </div>
     <div>
         <button type="submit" class="btn btn-dark ">Confirmar</button>

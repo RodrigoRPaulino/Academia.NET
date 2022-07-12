@@ -9,7 +9,7 @@ builder.Services.AddControllersWithViews();
 //linha para configurar a string de conexao
 builder.Services.AddEntityFrameworkSqlServer().AddDbContext<BancoContext>(o=> o.UseSqlServer("Data Source=DESKTOP-ICK0HDA\\SQLEXPRESS;Initial Catalog=SistemaShopping_db;Integrated Security=True"));
 // sempre que a interface for chamada a injeção sera automatica 
-//builder.Services.AddScoped<IRepositorioLojas, IRepositorioLojas>();
+builder.Services.AddScoped<IRepositorioLojas, RepositoroLojas>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

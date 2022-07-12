@@ -9,5 +9,6 @@ namespace ProjetoFinal_RodrigoPaulino.Models
         public int Id { get; set; }
         public string NomeLoja { get; set; }
         public string Localizacao { get; set; }
+        public string Telefone { get; set; }
     }
 }
