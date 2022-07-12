@@ -1,0 +1,11 @@
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\GestaoDeJogadores\bin\Debug\GestaoDeJogadores.exe.config
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\GestaoDeJogadores\bin\Debug\GestaoDeJogadores.exe
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\GestaoDeJogadores\bin\Debug\GestaoDeJogadores.pdb
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\GestaoDeJogadores\obj\Debug\GestaoDeJogadores.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\GestaoDeJogadores\obj\Debug\GestaoDeJogadores.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\GestaoDeJogadores\obj\Debug\GestaoJogadores.Form1.resources
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\GestaoDeJogadores\obj\Debug\GestaoDeJogadores.Properties.Resources.resources
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\GestaoDeJogadores\obj\Debug\GestaoDeJogadores.csproj.GenerateResource.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\GestaoDeJogadores\obj\Debug\GestaoDeJogadores.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\GestaoDeJogadores\obj\Debug\GestaoDeJogadores.exe
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\GestaoDeJogadores\obj\Debug\GestaoDeJogadores.pdb

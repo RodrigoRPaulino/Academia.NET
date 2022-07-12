@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="GestaoVendas_db" Class="GestaoVendasDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-ICK0HDA\SQLEXPRESS;Initial Catalog=GestaoVendas_db;Integrated Security=True" SettingsObjectName="GestaoVendas.Properties.Settings" SettingsPropertyName="GestaoVendas_dbConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.categoria" Member="categoria">
+    <Type Name="categoria">
+      <Column Name="id_categoria" Member="Cliente" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ds_categoria" Member="Descricao" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="categoria_produtos" Member="produtos" ThisKey="Cliente" OtherKey="CodigoCliente" Type="produtos" />
+    </Type>
+  </Table>
+  <Table Name="dbo.produtos" Member="produtos">
+    <Type Name="produtos">
+      <Column Name="id_produto" Member="CodigoProduto" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="codEAN" Member="CodigoEAN" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="valorProduto" Member="ValorProduto" Type="System.Decimal" DbType="Decimal(15,2)" CanBeNull="true" />
+      <Column Name="id_categoria" Member="CodigoCliente" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="categoria_produtos" Member="categoria" ThisKey="CodigoCliente" OtherKey="Cliente" Type="categoria" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

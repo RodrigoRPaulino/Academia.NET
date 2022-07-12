@@ -1,0 +1,11 @@
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExemplosCriptografia\bin\Debug\ExemplosCriptografia.exe.config
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExemplosCriptografia\bin\Debug\ExemplosCriptografia.exe
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExemplosCriptografia\bin\Debug\ExemplosCriptografia.pdb
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExemplosCriptografia\obj\Debug\ExemplosCriptografia.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExemplosCriptografia\obj\Debug\ExemplosCriptografia.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExemplosCriptografia\obj\Debug\ExemplosCriptografia.Form1.resources
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExemplosCriptografia\obj\Debug\ExemplosCriptografia.Properties.Resources.resources
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExemplosCriptografia\obj\Debug\ExemplosCriptografia.csproj.GenerateResource.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExemplosCriptografia\obj\Debug\ExemplosCriptografia.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExemplosCriptografia\obj\Debug\ExemplosCriptografia.exe
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExemplosCriptografia\obj\Debug\ExemplosCriptografia.pdb

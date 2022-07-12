@@ -1,0 +1,17 @@
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioPacientesEntityFramework\obj\Debug\net6.0-windows\ExercicioPacientesEntityFramework.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioPacientesEntityFramework\obj\Debug\net6.0-windows\ExercicioPacientesEntityFramework.Form1.resources
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioPacientesEntityFramework\obj\Debug\net6.0-windows\ExercicioPacientesEntityFramework.csproj.GenerateResource.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioPacientesEntityFramework\obj\Debug\net6.0-windows\ExercicioPacientesEntityFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioPacientesEntityFramework\obj\Debug\net6.0-windows\ExercicioPacientesEntityFramework.AssemblyInfoInputs.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioPacientesEntityFramework\obj\Debug\net6.0-windows\ExercicioPacientesEntityFramework.AssemblyInfo.cs
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioPacientesEntityFramework\obj\Debug\net6.0-windows\ExercicioPacientesEntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioPacientesEntityFramework\bin\Debug\net6.0-windows\ExercicioPacientesEntityFramework.exe
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioPacientesEntityFramework\bin\Debug\net6.0-windows\ExercicioPacientesEntityFramework.deps.json
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioPacientesEntityFramework\bin\Debug\net6.0-windows\ExercicioPacientesEntityFramework.runtimeconfig.json
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioPacientesEntityFramework\bin\Debug\net6.0-windows\ExercicioPacientesEntityFramework.dll
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioPacientesEntityFramework\bin\Debug\net6.0-windows\ExercicioPacientesEntityFramework.pdb
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioPacientesEntityFramework\obj\Debug\net6.0-windows\ExercicioPacientesEntityFramework.dll
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioPacientesEntityFramework\obj\Debug\net6.0-windows\refint\ExercicioPacientesEntityFramework.dll
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioPacientesEntityFramework\obj\Debug\net6.0-windows\ExercicioPacientesEntityFramework.pdb
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioPacientesEntityFramework\obj\Debug\net6.0-windows\ExercicioPacientesEntityFramework.genruntimeconfig.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioPacientesEntityFramework\obj\Debug\net6.0-windows\ref\ExercicioPacientesEntityFramework.dll

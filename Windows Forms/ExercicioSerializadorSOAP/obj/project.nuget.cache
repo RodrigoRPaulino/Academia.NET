@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GLDKvsp4dlUEWKh43ROmNPUnS4FiDFkPA4Hu2hj0PZbcNo2V83nRlHBb2owN80PQZrWhuu4PG+5HDgeiX8q5/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Rodrigo\\source\\repos\\Academia.Net\\Windows Forms\\ExercicioSerializadorSOAP\\ExercicioSerializadorSOAP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rodrigo\\.nuget\\packages\\soapformatter\\1.1.9\\soapformatter.1.1.9.nupkg.sha512"
+  ],
+  "logs": []
+}

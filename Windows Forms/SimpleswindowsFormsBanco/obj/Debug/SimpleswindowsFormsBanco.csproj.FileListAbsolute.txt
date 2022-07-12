@@ -1,0 +1,11 @@
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\SimpleswindowsFormsBanco\bin\Debug\SimpleswindowsFormsBanco.exe.config
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\SimpleswindowsFormsBanco\bin\Debug\SimpleswindowsFormsBanco.exe
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\SimpleswindowsFormsBanco\bin\Debug\SimpleswindowsFormsBanco.pdb
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\SimpleswindowsFormsBanco\obj\Debug\SimpleswindowsFormsBanco.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\SimpleswindowsFormsBanco\obj\Debug\SimpleswindowsFormsBanco.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\SimpleswindowsFormsBanco\obj\Debug\SimpleswindowsFormsBanco.Form1.resources
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\SimpleswindowsFormsBanco\obj\Debug\SimpleswindowsFormsBanco.Properties.Resources.resources
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\SimpleswindowsFormsBanco\obj\Debug\SimpleswindowsFormsBanco.csproj.GenerateResource.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\SimpleswindowsFormsBanco\obj\Debug\SimpleswindowsFormsBanco.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\SimpleswindowsFormsBanco\obj\Debug\SimpleswindowsFormsBanco.exe
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\SimpleswindowsFormsBanco\obj\Debug\SimpleswindowsFormsBanco.pdb

@@ -1,0 +1,11 @@
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\CadastroPessoas\bin\Debug\CadasttroPessoas.exe.config
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\CadastroPessoas\bin\Debug\CadasttroPessoas.exe
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\CadastroPessoas\bin\Debug\CadasttroPessoas.pdb
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\CadastroPessoas\obj\Debug\CadastroPessoas.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\CadastroPessoas\obj\Debug\CadastroPessoas.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\CadastroPessoas\obj\Debug\CadasttroPessoas.Cadastros.resources
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\CadastroPessoas\obj\Debug\CadasttroPessoas.Properties.Resources.resources
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\CadastroPessoas\obj\Debug\CadastroPessoas.csproj.GenerateResource.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\CadastroPessoas\obj\Debug\CadastroPessoas.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\CadastroPessoas\obj\Debug\CadasttroPessoas.exe
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\CadastroPessoas\obj\Debug\CadasttroPessoas.pdb

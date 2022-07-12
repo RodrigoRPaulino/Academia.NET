@@ -1,0 +1,11 @@
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\Desafio_Garagem\bin\Debug\Desafio_Garagem.exe.config
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\Desafio_Garagem\bin\Debug\Desafio_Garagem.exe
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\Desafio_Garagem\bin\Debug\Desafio_Garagem.pdb
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\Desafio_Garagem\obj\Debug\Desafio_Garagem.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\Desafio_Garagem\obj\Debug\Desafio_Garagem.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\Desafio_Garagem\obj\Debug\Desafio_Garagem.Form1.resources
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\Desafio_Garagem\obj\Debug\Desafio_Garagem.Properties.Resources.resources
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\Desafio_Garagem\obj\Debug\Desafio_Garagem.csproj.GenerateResource.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\Desafio_Garagem\obj\Debug\Desafio_Garagem.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\Desafio_Garagem\obj\Debug\Desafio_Garagem.exe
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\Desafio_Garagem\obj\Debug\Desafio_Garagem.pdb

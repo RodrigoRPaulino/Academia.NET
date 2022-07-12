@@ -1,0 +1,17 @@
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioSerializacaoXML\obj\Debug\net6.0-windows\ExercicioSerializacaoXML.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioSerializacaoXML\obj\Debug\net6.0-windows\ExercicioSerializacaoXML.csproj.GenerateResource.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioSerializacaoXML\bin\Debug\net6.0-windows\ExercicioSerializacaoXML.exe
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioSerializacaoXML\bin\Debug\net6.0-windows\ExercicioSerializacaoXML.deps.json
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioSerializacaoXML\bin\Debug\net6.0-windows\ExercicioSerializacaoXML.runtimeconfig.json
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioSerializacaoXML\bin\Debug\net6.0-windows\ExercicioSerializacaoXML.dll
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioSerializacaoXML\bin\Debug\net6.0-windows\ExercicioSerializacaoXML.pdb
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioSerializacaoXML\obj\Debug\net6.0-windows\ExercicioSerializacaoXML.Form1.resources
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioSerializacaoXML\obj\Debug\net6.0-windows\ExercicioSerializacaoXML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioSerializacaoXML\obj\Debug\net6.0-windows\ExercicioSerializacaoXML.AssemblyInfoInputs.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioSerializacaoXML\obj\Debug\net6.0-windows\ExercicioSerializacaoXML.AssemblyInfo.cs
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioSerializacaoXML\obj\Debug\net6.0-windows\ExercicioSerializacaoXML.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioSerializacaoXML\obj\Debug\net6.0-windows\ExercicioSerializacaoXML.dll
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioSerializacaoXML\obj\Debug\net6.0-windows\refint\ExercicioSerializacaoXML.dll
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioSerializacaoXML\obj\Debug\net6.0-windows\ExercicioSerializacaoXML.pdb
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioSerializacaoXML\obj\Debug\net6.0-windows\ExercicioSerializacaoXML.genruntimeconfig.cache
+C:\Users\Rodrigo\source\repos\Academia.Net\Windows Forms\ExercicioSerializacaoXML\obj\Debug\net6.0-windows\ref\ExercicioSerializacaoXML.dll
