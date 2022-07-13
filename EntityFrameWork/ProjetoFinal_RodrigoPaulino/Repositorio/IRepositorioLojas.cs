@@ -7,5 +7,7 @@ namespace ProjetoFinal_RodrigoPaulino.Repositorio
         LojasModel BuscarId(int id);
         List<LojasModel> ExibirTodos();
         LojasModel Cadastrar(LojasModel lojas);
+        LojasModel Atualizar(LojasModel lojas);
+        
     }
 }

@@ -8,6 +8,8 @@
 </div>
 
 <form asp-controller="ListagemLojas" asp-action="Atualizar" method="post">
+     <!--Usamos um input do tipo hidden que deixa invisivel o campo id-->
+    <input type="hidden" asp-for="Id"/>
      <div class="form-group">
         <label for="loja"><strong>Loja</strong></label>
         <input type="text" asp-for="NomeLoja" class="form-control" placeholder="Digite o nome da loja">
@@ -21,7 +23,7 @@
         <input type="text" asp-for="Telefone" class="form-control" placeholder="Digite o telefone">
     </div>
     <div>
-        <button type="submit" class="btn btn-dark ">Atualizar</button>
+        <button type="submit" class="btn btn-dark ">Atualizar Informações</button>
         <a class="btn btn-secondary " asp-controller="ListagemLojas" asp-action="Index" role="button">Voltar</a>
     </div>
 

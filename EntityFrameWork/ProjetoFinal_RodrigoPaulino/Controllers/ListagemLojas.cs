@@ -1,9 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
+using Microsoft.AspNetCore.Mvc;
 using ProjetoFinal_RodrigoPaulino.Models;
 using ProjetoFinal_RodrigoPaulino.Repositorio;
 
 namespace ProjetoFinal_RodrigoPaulino.Controllers
 {
+    /// <summary>
+    /// aqui eu chamo os métodos 
+    /// </summary>
     public class ListagemLojas : Controller
     {
         // crio a variavel extraindo o Irepositoriolojas 
@@ -19,15 +23,16 @@ namespace ProjetoFinal_RodrigoPaulino.Controllers
             List<LojasModel> lojas = _repositorioLojas.ExibirTodos();
             return View(lojas);
         }
-       
+      
         public IActionResult Cadastrar()
         {
             return View();
         }
+        // aqui eu chamo o método de buscar os elementos  pelo id
         public IActionResult Editar(int id)
         {
-
-            return View();
+          LojasModel lojas = _repositorioLojas.BuscarId(id);
+            return View(lojas);
         }
         public IActionResult ApagarConfirmar()
         {
@@ -35,7 +40,7 @@ namespace ProjetoFinal_RodrigoPaulino.Controllers
         }
         //vou informar que esse método e do tipo HttpPost
         [HttpPost]
-        //método para adicionar lojas
+        //método para criar lojas
         public IActionResult Cadastrar(LojasModel lojas)
         {
 
@@ -43,5 +48,15 @@ namespace ProjetoFinal_RodrigoPaulino.Controllers
             //retorno redirecionando a index 
             return RedirectToAction("Index");
         }
+        [HttpPost]
+        //método para adicionar lojas
+        public IActionResult Alterar(LojasModel lojas)
+        {
+
+            _repositorioLojas.Atualizar(lojas);
+            //retorno redirecionando a index 
+            return RedirectToAction("Index");
+        }
+
     }
 }

@@ -6,6 +6,7 @@ C:\Users\Rodrigo\source\repos\Academia.Net\EntityFrameWork\ProjetoFinal_RodrigoP
 C:\Users\Rodrigo\source\repos\Academia.Net\EntityFrameWork\ProjetoFinal_RodrigoPaulino\bin\Debug\net6.0\ProjetoFinal_RodrigoPaulino.runtimeconfig.json
 C:\Users\Rodrigo\source\repos\Academia.Net\EntityFrameWork\ProjetoFinal_RodrigoPaulino\bin\Debug\net6.0\ProjetoFinal_RodrigoPaulino.dll
 C:\Users\Rodrigo\source\repos\Academia.Net\EntityFrameWork\ProjetoFinal_RodrigoPaulino\bin\Debug\net6.0\ProjetoFinal_RodrigoPaulino.pdb
+C:\Users\Rodrigo\source\repos\Academia.Net\EntityFrameWork\ProjetoFinal_RodrigoPaulino\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
 C:\Users\Rodrigo\source\repos\Academia.Net\EntityFrameWork\ProjetoFinal_RodrigoPaulino\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Rodrigo\source\repos\Academia.Net\EntityFrameWork\ProjetoFinal_RodrigoPaulino\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\Rodrigo\source\repos\Academia.Net\EntityFrameWork\ProjetoFinal_RodrigoPaulino\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
@@ -34,6 +35,7 @@ C:\Users\Rodrigo\source\repos\Academia.Net\EntityFrameWork\ProjetoFinal_RodrigoP
 C:\Users\Rodrigo\source\repos\Academia.Net\EntityFrameWork\ProjetoFinal_RodrigoPaulino\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\Rodrigo\source\repos\Academia.Net\EntityFrameWork\ProjetoFinal_RodrigoPaulino\bin\Debug\net6.0\System.Drawing.Common.dll
 C:\Users\Rodrigo\source\repos\Academia.Net\EntityFrameWork\ProjetoFinal_RodrigoPaulino\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Rodrigo\source\repos\Academia.Net\EntityFrameWork\ProjetoFinal_RodrigoPaulino\bin\Debug\net6.0\System.IO.Packaging.dll
 C:\Users\Rodrigo\source\repos\Academia.Net\EntityFrameWork\ProjetoFinal_RodrigoPaulino\bin\Debug\net6.0\System.Runtime.Caching.dll
 C:\Users\Rodrigo\source\repos\Academia.Net\EntityFrameWork\ProjetoFinal_RodrigoPaulino\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Rodrigo\source\repos\Academia.Net\EntityFrameWork\ProjetoFinal_RodrigoPaulino\bin\Debug\net6.0\System.Security.Permissions.dll

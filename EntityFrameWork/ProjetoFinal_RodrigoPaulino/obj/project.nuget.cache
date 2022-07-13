@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "x96ROSoDcYdotM36Ukn3J52xqc1ngVxtte3Mzo+GgXGg35q71CvwIPunlQuu//Jd9Os4aIy1L3ZIGYQgtXS4yg==",
+  "dgSpecHash": "fVFix95bldsZW9fDpmJt0XlWF/LjtGCHinH/HnO8nvG0OkeKiZlkAsFplH8WXoNxhTJLVjslZkE/RDG1rhzSXQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rodrigo\\source\\repos\\Academia.Net\\EntityFrameWork\\ProjetoFinal_RodrigoPaulino\\ProjetoFinal_RodrigoPaulino.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Rodrigo\\.nuget\\packages\\documentformat.openxml\\2.17.1\\documentformat.openxml.2.17.1.nupkg.sha512",
     "C:\\Users\\Rodrigo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Rodrigo\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\Rodrigo\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
@@ -132,6 +133,7 @@
     "C:\\Users\\Rodrigo\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0\\system.io.compression.zipfile.4.3.0.nupkg.sha512",
     "C:\\Users\\Rodrigo\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\Rodrigo\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Rodrigo\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512",
     "C:\\Users\\Rodrigo\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
     "C:\\Users\\Rodrigo\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
     "C:\\Users\\Rodrigo\\.nuget\\packages\\system.net.http\\4.3.0\\system.net.http.4.3.0.nupkg.sha512",
