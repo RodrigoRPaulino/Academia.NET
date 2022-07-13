@@ -10,6 +10,12 @@ namespace ProjetoFinal_RodrigoPaulino.Repositorio
         {
                 _bancoContext = bancoContext;
         }
+        // método para buscar o id
+        public LojasModel BuscarId(int id)
+        {
+            //retorna procurando o primeiro registro ou o unico registro 
+            return _bancoContext.lojas.FirstOrDefault();
+        }
         public List<LojasModel> ExibirTodos()
         {
             return _bancoContext.lojas.ToList();
@@ -25,6 +31,6 @@ namespace ProjetoFinal_RodrigoPaulino.Repositorio
             return lojas;
         }
 
-     
+       
     }
 }
