@@ -6,6 +6,21 @@
     <h1>Lista de Cadastro de lojas</h1>
 
     <div class="text-center">
+        <!--Validando as mensagens de sucesso e erro -->
+        @if (TempData["MenssagemSucesso"] != null)
+        {
+            <div class="alert alert-success" role="alert">
+                <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+                @TempData["MenssagemSucesso"]
+            </div>
+        }
+        @if (TempData["MenssagemErro"] != null)
+        {
+            <div class="alert alert-danger" role="alert">
+                <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+                @TempData["MenssagemErro"]
+            </div>
+        }
 
         <h1 class=" display-4">Lista de Lojas</h1>
         <br></br>
