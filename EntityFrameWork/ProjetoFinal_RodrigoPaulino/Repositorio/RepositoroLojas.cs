@@ -16,10 +16,12 @@ namespace ProjetoFinal_RodrigoPaulino.Repositorio
             //retorna procurando o primeiro registro ou o unico registro 
             return _bancoContext.lojas.FirstOrDefault(x => x.Id == id);
         }
+
         public List<LojasModel> ExibirTodos()
         {
             return _bancoContext.lojas.ToList();
         }
+
         //método para cadastro de novas lojas no banco
         public LojasModel Cadastrar(LojasModel lojas)
         {
@@ -30,21 +32,12 @@ namespace ProjetoFinal_RodrigoPaulino.Repositorio
             //retorno para loja
             return lojas;
         }
-        /// <summary>
-        /// precisamos buscar o contato do banco e com as informaçoes novas atualizarmos os dados
-        /// </summary>
-        /// <param name="lojas"></param>
-        /// <returns></returns>
-        /// <exception cref="NotImplementedException"></exception>
+
         public LojasModel Atualizar(LojasModel lojas)
         {
             LojasModel lojasDB = BuscarId(lojas.Id);
-            if (lojasDB == null) 
-            {
-                throw new System.Exception("Erro ao atualizar!\n Tente novamente");
-            }
-            else 
-            {
+            if (lojasDB == null) throw new System.Exception("Erro ao atualizar!\n Tente novamente");
+          
                 lojasDB.NomeLoja = lojas.NomeLoja;
                 lojasDB.Localizacao = lojas.Localizacao;
                 lojasDB.Telefone = lojas.Telefone;
@@ -52,10 +45,16 @@ namespace ProjetoFinal_RodrigoPaulino.Repositorio
                 _bancoContext.SaveChanges();
 
                 return lojasDB;
-            }
-  
+            
         }
 
-
+        public bool Apagar(int id)
+        {
+            LojasModel lojasDB = BuscarId(id);
+            if (lojasDB == null) throw new System.Exception("Não foi possivel excluir a loja selecionada.\n Tente novamente");
+            _bancoContext.lojas.Remove(lojasDB);
+            _bancoContext.SaveChanges();
+            return true;
+        }
     }
 }

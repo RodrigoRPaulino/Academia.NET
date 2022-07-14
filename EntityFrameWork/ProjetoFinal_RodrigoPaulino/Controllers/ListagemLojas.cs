@@ -34,10 +34,21 @@ namespace ProjetoFinal_RodrigoPaulino.Controllers
           LojasModel lojas = _repositorioLojas.BuscarId(id);
             return View(lojas);
         }
-        public IActionResult ApagarConfirmar()
+        public IActionResult ApagarConfirmar(int id)
         {
-            return View();
+            LojasModel lojas = _repositorioLojas.BuscarId(id);
+            return View(lojas);
         }
+        /// <summary>
+        /// método que apaga de fato o registro do banco
+        /// </summary>
+        /// <returns></returns>
+        public IActionResult Apagar(int id) 
+        {
+            _repositorioLojas.Apagar(id);
+            return RedirectToAction("Index");
+        }
+
         //vou informar que esse método e do tipo HttpPost
         [HttpPost]
         //método para criar lojas

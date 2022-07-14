@@ -7,7 +7,7 @@
     <h1 class="display-4">Editar Informações</h1>
 </div>
 
-<form asp-controller="ListagemLojas" asp-action="Atualizar" method="post">
+<form asp-controller="ListagemLojas" asp-action="Alterar" method="post">
      <!--Usamos um input do tipo hidden que deixa invisivel o campo id-->
     <input type="hidden" asp-for="Id"/>
      <div class="form-group">
@@ -24,7 +24,7 @@
     </div>
     <div>
         <button type="submit" class="btn btn-dark ">Atualizar Informações</button>
-        <a class="btn btn-secondary " asp-controller="ListagemLojas" asp-action="Index" role="button">Voltar</a>
+        <a class="btn btn-secondary "asp-action="Index" asp-controller="ListagemLojas" role="button">Voltar</a>
     </div>
 
 
