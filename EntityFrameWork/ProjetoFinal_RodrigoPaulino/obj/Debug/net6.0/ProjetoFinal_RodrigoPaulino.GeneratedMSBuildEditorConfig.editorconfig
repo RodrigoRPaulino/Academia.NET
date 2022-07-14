@@ -23,20 +23,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rodrigo/source/repos/Academia.Net/EntityFrameWork/ProjetoFinal_RodrigoPaulino/Views/ListagemLojas/ApagarConfirmar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFnZW1Mb2phc1xBcGFnYXJDb25maXJtYXIuY3NodG1s
+[C:/Users/Rodrigo/source/repos/Academia.Net/EntityFrameWork/ProjetoFinal_RodrigoPaulino/Views/Lojas/ApagarConfirmar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9qYXNcQXBhZ2FyQ29uZmlybWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rodrigo/source/repos/Academia.Net/EntityFrameWork/ProjetoFinal_RodrigoPaulino/Views/ListagemLojas/Cadastrar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFnZW1Mb2phc1xDYWRhc3RyYXIuY3NodG1s
+[C:/Users/Rodrigo/source/repos/Academia.Net/EntityFrameWork/ProjetoFinal_RodrigoPaulino/Views/Lojas/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9qYXNcQ2FkYXN0cmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rodrigo/source/repos/Academia.Net/EntityFrameWork/ProjetoFinal_RodrigoPaulino/Views/ListagemLojas/Editar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFnZW1Mb2phc1xFZGl0YXIuY3NodG1s
+[C:/Users/Rodrigo/source/repos/Academia.Net/EntityFrameWork/ProjetoFinal_RodrigoPaulino/Views/Lojas/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9qYXNcRWRpdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rodrigo/source/repos/Academia.Net/EntityFrameWork/ProjetoFinal_RodrigoPaulino/Views/ListagemLojas/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFnZW1Mb2phc1xJbmRleC5jc2h0bWw=
+[C:/Users/Rodrigo/source/repos/Academia.Net/EntityFrameWork/ProjetoFinal_RodrigoPaulino/Views/Lojas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9qYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Rodrigo/source/repos/Academia.Net/EntityFrameWork/ProjetoFinal_RodrigoPaulino/Views/Shared/Error.cshtml]

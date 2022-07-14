@@ -18,5 +18,6 @@ namespace ProjetoFinal_RodrigoPaulino.Models
         [Required(ErrorMessage ="Digite um telefone válido")]
         [Phone(ErrorMessage ="Digite um numero de telefone válido")]
         public string Telefone { get; set; }
+        public List<ProdutosModel> Produtos { get; set; }
     }
 }

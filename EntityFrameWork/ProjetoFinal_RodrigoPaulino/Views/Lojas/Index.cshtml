@@ -9,8 +9,8 @@
         <!--Validando as mensagens de sucesso e erro -->
         @if (TempData["MenssagemSucesso"] != null)
         {
-            <div class="alert alert-success" role="alert">
-                <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+            <div class="alert alert-success" role="alert" id="msgSucesso">
+                <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close" onclick="FecharMenssagem()">X</button>
                 @TempData["MenssagemSucesso"]
             </div>
         }
@@ -24,7 +24,8 @@
 
         <h1 class=" display-4">Lista de Lojas</h1>
         <br></br>
-        <table class="table">
+
+        <table class="table" id="myTable">
             <thead>
                 <tr>
                     <th scope="col">#</th>
@@ -45,8 +46,8 @@
                             <td>@lojas.Telefone</td>
                             <td>
                                 <div class="btn-group" role="group">
-                                    <a role="button" class="btn btn-success" asp-route-id="@lojas.Id" asp-controller="ListagemLojas" asp-action="Editar">Editar</a>
-                                    <a role="button" class="btn btn-dark" asp-route-id="@lojas.Id" asp-controller="ListagemLojas" asp-action="ApagarConfirmar">Apagar</a>
+                                    <a role="button" class="btn btn-success" asp-route-id="@lojas.Id" asp-controller="Lojas" asp-action="Editar">Editar</a>
+                                    <a role="button" class="btn btn-dark" asp-route-id="@lojas.Id" asp-controller="Lojas" asp-action="ApagarConfirmar">Apagar</a>
                                 </div>
                             </td>
 
@@ -59,7 +60,7 @@
                     <td>
 
                         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <a class="btn btn-warning" role="button" asp-controller="ListagemLojas" asp-action="Cadastrar"><strong>Cadastrar Loja</strong></a>
+                            <a class="btn btn-warning" role="button" asp-controller="Lojas" asp-action="Cadastrar"><strong>Cadastrar Loja</strong></a>
                         </div>
                     </td>
                 </tr>
@@ -70,6 +71,15 @@
 
     </div>
 </div>
+
+
+<script> 
+function FecharMenssagem() 
+{
+ document.getElementById('msgSucesso').style.display = "none";
+ 
+}
+</script>
 
 
 

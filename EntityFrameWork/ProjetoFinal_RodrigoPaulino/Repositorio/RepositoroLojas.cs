@@ -1,4 +1,5 @@
-﻿using ProjetoFinal_RodrigoPaulino.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using ProjetoFinal_RodrigoPaulino.Data;
 using ProjetoFinal_RodrigoPaulino.Models;
 
 namespace ProjetoFinal_RodrigoPaulino.Repositorio
@@ -14,7 +15,8 @@ namespace ProjetoFinal_RodrigoPaulino.Repositorio
         public LojasModel BuscarId(int id)
         {
             //retorna procurando o primeiro registro ou o unico registro 
-            return _bancoContext.lojas.FirstOrDefault(x => x.Id == id);
+            return _bancoContext.lojas.Include(l=>l.Produtos).FirstOrDefault(l=> l.Id == id);
+            //return _bancoContext.lojas.Include.(x => x.Id == id);
         }
 
         public List<LojasModel> ExibirTodos()

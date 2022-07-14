@@ -7,5 +7,5 @@
     <h3>Deseja Excluir a loja selecionada(@Model.NomeLoja)? </h3>
 </div>
 <!--botoes com rotas para cancelar e apagar os registros do banco-->
-<a class="btn btn-dark" role="button" asp-controller="ListagemLojas" asp-action="Index">Cancelar exclusão</a>
-<a class=" btn btn-danger"role="button" asp-controller="ListagemLojas" asp-route-id="@Model.Id" asp-action="Apagar">Confirmar exclusão</a>
+<a class="btn btn-dark" role="button" asp-controller="Lojas" asp-action="Index">Cancelar exclusão</a>
+<a class=" btn btn-danger"role="button" asp-controller="Lojas" asp-route-id="@Model.Id" asp-action="Apagar">Confirmar exclusão</a>

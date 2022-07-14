@@ -8,12 +8,12 @@ namespace ProjetoFinal_RodrigoPaulino.Controllers
     /// <summary>
     /// aqui eu chamo os métodos 
     /// </summary>
-    public class ListagemLojas : Controller
+    public class LojasController : Controller
     {
         // crio a variavel extraindo o Irepositoriolojas 
         private readonly IRepositorioLojas _repositorioLojas;
         //crio uma classe e importo o repositor de lojas fazendo sua injeção
-        public ListagemLojas(IRepositorioLojas repositorioLojas)
+        public LojasController(IRepositorioLojas repositorioLojas)
         {
             //injeção de dependencia
             _repositorioLojas = repositorioLojas;

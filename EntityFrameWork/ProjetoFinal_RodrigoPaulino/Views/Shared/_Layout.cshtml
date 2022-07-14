@@ -6,8 +6,15 @@
     <title>@ViewData["Title"] - Projeto Final</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.css" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
     <link rel="stylesheet" href="~/ProjetoFinal_RodrigoPaulino.styles.css" asp-append-version="true" />
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
@@ -24,7 +31,7 @@
                         </li>
                         <li class="nav-item">
                             <!--informo no asp controler que vou redirecionar a listagem lojas-->
-                            <a class="nav-link text-dark" asp-area="" asp-controller="ListagemLojas" asp-action="Index">Lojistas</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Lojas" asp-action="Index">Lojistas</a>
                         </li>
                     </ul>
                 </div>
@@ -36,15 +43,11 @@
             @RenderBody()
         </main>
     </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - Buscador Interno
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
 </body>
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2022 - Buscador Interno
+    </div>
+</footer>
+
 </html>
