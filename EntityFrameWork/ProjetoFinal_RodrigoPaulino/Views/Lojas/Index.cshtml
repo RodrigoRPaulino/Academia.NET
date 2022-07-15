@@ -1,85 +1,61 @@
-﻿@model List<LojasModel>
+﻿<!--Quarto passo foi criar a view  das lojas-->
+@model List<LojasModel>
 @{
-    ViewData["Title"] = "Cadastro de lojas";
+    ViewData["Title"] = "Lista de lojas";
 }
+
+<h1> Lista de Lojas</h1>
+
+<!--div para deixar o texto e a tabelas no centro da tela-->
 <div class="text-center">
-    <h1>Lista de Cadastro de lojas</h1>
+    <!--Criacão da tabela Provisória de lojas(serao inseridas pelo banco)-->
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Localização</th>
+                <th scope="col">Seguimento</th>
+                <th scope="col">Telefone</th>
 
-    <div class="text-center">
-        <!--Validando as mensagens de sucesso e erro -->
-        @if (TempData["MenssagemSucesso"] != null)
-        {
-            <div class="alert alert-success" role="alert" id="msgSucesso">
-                <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close" onclick="FecharMenssagem()">X</button>
-                @TempData["MenssagemSucesso"]
-            </div>
-        }
-        @if (TempData["MenssagemErro"] != null)
-        {
-            <div class="alert alert-danger" role="alert">
-                <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
-                @TempData["MenssagemErro"]
-            </div>
-        }
-
-        <h1 class=" display-4">Lista de Lojas</h1>
-        <br></br>
-
-        <table class="table" id="myTable">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Loja</th>
-                    <th scope="col">Localização</th>
-                    <th scope="col">Contato</th>
-                </tr>
-            </thead>
-            <tbody>
-                @if (Model != null && Model.Any())
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                @foreach (LojasModel lojas in Model)
                 {
-                    foreach (LojasModel lojas in Model)
-                    {
-                        <tr>
-                            <th scope="row">@lojas.Id</th>
-                            <td>@lojas.NomeLoja</td>
-                            <td>@lojas.Localizacao</td>
-                            <td>@lojas.Telefone</td>
-                            <td>
-                                <div class="btn-group" role="group">
-                                    <a role="button" class="btn btn-success" asp-route-id="@lojas.Id" asp-controller="Lojas" asp-action="Editar">Editar</a>
-                                    <a role="button" class="btn btn-dark" asp-route-id="@lojas.Id" asp-controller="Lojas" asp-action="ApagarConfirmar">Apagar</a>
-                                </div>
-                            </td>
-
-                        </tr>
-                    }
+                    <tr>
+                        <th scope="row">@lojas.Id</th>
+                        <td>@lojas.Nome</td>
+                        <td>@lojas.Localizacao</td>
+                        <td>@lojas.Seguimento</td>
+                        <td>@lojas.Telefone</td>
+                        <td>
+                            <!--div com botoes para editar e apagar as lojas-->
+                            <div class="btn-group" role="group">
+                                <a role="button" class="btn btn-success" asp-route-id="@lojas.Id" asp-controller="Lojas" asp-action="Editar">Editar</a>
+                                <a role="button" class="btn btn-dark"asp-route-id="@lojas.Id" asp-controller="Lojas" asp-action="ApagarConfirmacao">Apagar</a>
+                            </div>
+                        </td>
+                    </tr>
                 }
 
-                <br></br>
-                <tr>
-                    <td>
+            }
 
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <a class="btn btn-warning" role="button" asp-controller="Lojas" asp-action="Cadastrar"><strong>Cadastrar Loja</strong></a>
-                        </div>
-                    </td>
-                </tr>
-
-
-            </tbody>
-        </table>
-
-    </div>
+        </tbody>
+    </table>
+</div>
+<!--Quebra linha-->
+<br></br>
+<!--Botão para redirecionar para a tela de novos cadastros de lojas-->
+<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+    <!--Tracando a rota do botão cadastrar na controller Lojas com a acão de Cadastrar-->
+    <a class="btn btn-warning" role="button" asp-controller="Lojas" asp-action="Cadastrar"><strong>Cadastrar Loja</strong></a>
 </div>
 
 
-<script> 
-function FecharMenssagem() 
-{
- document.getElementById('msgSucesso').style.display = "none";
- 
-}
-</script>
+
 
 
 

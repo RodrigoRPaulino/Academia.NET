@@ -7,9 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 //linha para configurar a string de conexao
-builder.Services.AddEntityFrameworkSqlServer().AddDbContext<BancoContext>(o=> o.UseSqlServer("Data Source=DESKTOP-ICK0HDA\\SQLEXPRESS;Initial Catalog=SistemaShopping_db;Integrated Security=True"));
+//depois de inserir o código abrir o appsettings.json para configurar as strings de conexão
+builder.Services.AddEntityFrameworkSqlServer().AddDbContext<BancoContext>(o => o.UseSqlServer("Data Source=DESKTOP-ICK0HDA\\SQLEXPRESS;Initial Catalog=SistemaShopping_db;Integrated Security=True"));
 // sempre que a interface for chamada a injeção sera automatica 
-builder.Services.AddScoped<IRepositorioLojas, RepositoroLojas>();
+builder.Services.AddScoped<ILojasRepositorio, LojasRepositorio>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

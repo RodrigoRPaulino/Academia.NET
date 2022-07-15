@@ -1,25 +1,22 @@
-﻿<!DOCTYPE html>
+﻿
+
+<!--Mudamos o titulo e os nav´s bar-->
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Projeto Final</title>
+    <title>@ViewData["Title"] - Sistema de busca de Produtos</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.css" />
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
     <link rel="stylesheet" href="~/ProjetoFinal_RodrigoPaulino.styles.css" asp-append-version="true" />
 </head>
-
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Projeto Final</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Sistema de busca de Produtos</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -30,7 +27,7 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Página Inicial</a>
                         </li>
                         <li class="nav-item">
-                            <!--informo no asp controler que vou redirecionar a listagem lojas-->
+                            <!--Traçamos a rota da controller para Lojas e a action para Index-->
                             <a class="nav-link text-dark" asp-area="" asp-controller="Lojas" asp-action="Index">Lojistas</a>
                         </li>
                     </ul>
@@ -43,11 +40,16 @@
             @RenderBody()
         </main>
     </div>
-</body>
-<footer class="border-top footer text-muted">
-    <div class="container">
-        &copy; 2022 - Buscador Interno
-    </div>
-</footer>
 
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            <!--Mudamos a menssagem para o nome do sistema -->
+            &copy; 2022 - Sistema de busca de Produtos  
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
 </html>

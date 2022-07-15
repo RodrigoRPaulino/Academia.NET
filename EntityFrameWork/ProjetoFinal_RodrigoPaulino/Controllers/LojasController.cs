@@ -1,125 +1,58 @@
-﻿
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using ProjetoFinal_RodrigoPaulino.Models;
 using ProjetoFinal_RodrigoPaulino.Repositorio;
 
 namespace ProjetoFinal_RodrigoPaulino.Controllers
-{
-    /// <summary>
-    /// aqui eu chamo os métodos 
-    /// </summary>
+{/// <summary>
+/// Meu terceiro passo foi criar uma controller vazia 
+/// </summary>
     public class LojasController : Controller
     {
-        // crio a variavel extraindo o Irepositoriolojas 
-        private readonly IRepositorioLojas _repositorioLojas;
-        //crio uma classe e importo o repositor de lojas fazendo sua injeção
-        public LojasController(IRepositorioLojas repositorioLojas)
+        private readonly ILojasRepositorio _lojasRepositorio;
+        public LojasController(ILojasRepositorio lojasRepositorio)
         {
-            //injeção de dependencia
-            _repositorioLojas = repositorioLojas;
+            _lojasRepositorio = lojasRepositorio;
         }
+        //clico com o botao direito em View e adiciono uma nova view vazia
         public IActionResult Index()
         {
-            List<LojasModel> lojas = _repositorioLojas.ExibirTodos();
+           List<LojasModel> lojas = _lojasRepositorio.BuscarTodos();
             return View(lojas);
         }
-
+        /// <summary>
+        /// Quinto passo será criar as actions das paginas de cadastro, ediçao  e deleção 
+        /// e a criação das views de cada action
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Cadastrar()
         {
             return View();
         }
-        // aqui eu chamo o método de buscar os elementos  pelo id
-        public IActionResult Editar(int id)
-        {
-            LojasModel lojas = _repositorioLojas.BuscarId(id);
-            return View(lojas);
-        }
-        public IActionResult ApagarConfirmar(int id)
-        {
-            LojasModel lojas = _repositorioLojas.BuscarId(id);
-            return View(lojas);
-        }
+
         /// <summary>
-        /// método que apaga de fato o registro do banco
+        /// assinamos o método de cadastrar como httppost
+        /// é ele que recebe e cadastra a informação
         /// </summary>
+        /// <param name="lojas"></param>
         /// <returns></returns>
-        public IActionResult Apagar(int id)
-        {
-            try
-            {
-                bool apagado =_repositorioLojas.Apagar(id);
-                if (apagado)
-                {
-                    TempData["MenssagemSucesso"] = "Informações apagadas com sucesso";
-                }
-                else
-                {
-                    TempData["MenssagemErro"] = $"Erro ao apagar as informações, tente novamente mais tarde";
-                }
-                return RedirectToAction("Index");
-            }
-            catch (Exception erro)
-            {
-
-                TempData["MenssagemErro"] = $"Erro ao apagar as informações, tente novamente mais tarde,{erro.Message}";
-                //retorno redirecionando a index 
-                return RedirectToAction("Index");
-            }
-        }
-
-        //vou informar que esse método e do tipo HttpPost
         [HttpPost]
-        //método para criar lojas
         public IActionResult Cadastrar(LojasModel lojas)
-        {    
-            try
-            {
-                //criando condição : se o valor da modelstate for valida o if ira passar os comandos de cadastro
-                if (ModelState.IsValid)
-                {
-                    _repositorioLojas.Cadastrar(lojas);
-                    // criando menssagem temporária para exibir o exito no cadastro
-                    TempData["MenssagemSucesso"] = "Cadastro realizado com sucesso";
-                    //retorno redirecionando a index 
-                    return RedirectToAction("Index");
-                }
-                return View(lojas);
-            }
-            catch (System.Exception erro)
-            {
-
-                TempData["MenssagemErro"] = $"Erro ao efetuar o cadastro, tente novamente mais tarde, {erro.Message}";
-                //retorno redirecionando a index 
-                return RedirectToAction("Index");
-            }
-                
-
-        }
-        [HttpPost]
-        //método para adicionar lojas
-        public IActionResult Alterar(LojasModel lojas)
         {
-            try
-            {
-                if (ModelState.IsValid)
-                {
-                    _repositorioLojas.Atualizar(lojas);
-                    TempData["MenssagemSucesso"] = "Alterações realizadas com sucesso";
-                    //retorno redirecionando a index 
-                    return RedirectToAction("Index");
-                }
-                //forçamos o retorno da view 
-                return View("Editar", lojas);
-            }
-            catch (System.Exception erro)
-            {
-
-                TempData["MenssagemErro"] = $"Erro ao alterar as informações, tente novamente mais tarde, {erro.Message}";
-                //retorno redirecionando a index 
-                return RedirectToAction("Index");
-            }
-            
+            _lojasRepositorio.Cadastrar(lojas);
+            return RedirectToAction("Index");
         }
+        //depois de terminar o método de cadastrar vamos a program para configurar
+        //a injeção de dependencia da ILojasRepositório   
+
+        public IActionResult Editar()
+        {
+            return View();
+        }
+        public IActionResult ApagarConfirmacao()
+        {
+            return View();
+        }
+
 
     }
 }

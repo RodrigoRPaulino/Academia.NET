@@ -1,30 +1,46 @@
-﻿@model LojasModel
+﻿<!--
+    sempre que eu precisar vincular uma view a uma model eu chamo 
+    usando o arroba + model e o nome da model que eu vou usar 
+-->
+@model LojasModel
 @{
-    ViewData["Title"] = "Cadastro de lojas";
+
 }
+
+<!--Sexto passo
+    crio a pagina de cadastro e o formulario para preencher as informaçoes
+-->
+
 <div class="text-center">
     <h1 class="display-4">Novo Cadastro</h1>
 </div>
+
+<!--quando clicar em cadastrar ele vai pegar o controlador e como açao ele vai cadastrar e postar -->
 <form asp-controller="Lojas" asp-action="Cadastrar" method="post">
    
     <div class="form-group">
         <label for="loja"><strong>Loja</strong></label>
-        <input type="text" asp-for="NomeLoja" class="form-control" placeholder="Digite o nome da loja">
-        <!--linha de código para mostar ao usuário uma menssagem de erro-->
-        @Html.ValidationMessageFor(n => n.NomeLoja)
+        <input type="text" asp-for="Nome" class="form-control" placeholder="Digite o nome da loja">
+       @* <!--linha de código para mostar ao usuário uma menssagem de erro-->
+        @Html.ValidationMessageFor(n => n.NomeLoja)*@
     </div>
     <div class="form-group">
         <label for="localizacao"><strong>Localização</strong></label>
-        <input type="text"asp-for="Localizacao" class="form-control" placeholder="Digite o endereço da loja">
-         @Html.ValidationMessageFor(l => l.Localizacao)
+        <input type="text" asp-for="Localizacao" class="form-control" placeholder="Digite o endereço da loja">
+        @* @Html.ValidationMessageFor(l => l.Localizacao)*@
+    </div>
+    <div class="form-group">
+        <label for="telefone"><strong>Seguimento</strong></label>
+        <input type="text" asp-for="Seguimento" class="form-control" placeholder=" Digite o seguimento da loja">
+        @* @Html.ValidationMessageFor(t => t.Telefone)*@
     </div>
     <div class="form-group">
         <label for="telefone"><strong>Telefone</strong></label>
         <input type="text" asp-for="Telefone" class="form-control" placeholder="Digite o telefone">
-         @Html.ValidationMessageFor(t => t.Telefone)
+        @* @Html.ValidationMessageFor(t => t.Telefone)*@
     </div>
     <div>
-        <button type="submit" class="btn btn-dark ">Confirmar</button>
-        <a class="btn btn-secondary " asp-controller="Lojas" asp-action="Index" role="button">Voltar</a>
+        <button type="submit" class="btn btn-success ">Cadastrar</button>
+        <a class="btn btn-dark " asp-controller="Lojas" asp-action="Index" role="button">Voltar</a>     
     </div>
 </form>

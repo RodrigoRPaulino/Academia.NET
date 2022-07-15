@@ -1,79 +1,38 @@
-﻿@model LojasModel
+﻿
+
+<!--
+    Sétimo passo
+    criar a página de edição de cadastro com formulario
+-->
 
 @{
-    ViewData["Title"] = "Editar Informações";
+    ViewData["Title"] = "Editar Cadastro";
 }
+
 <div class="text-center">
-    <h1 class="display-4">Editar Informações</h1>
+    <h1 class="display-4">Editar Cadastro</h1>
 </div>
 
-<form asp-controller="Lojas" asp-action="Alterar" method="post">
-    <!--Usamos um input do tipo hidden que deixa invisivel o campo id-->
-    <input type="hidden" asp-for="Id" />
+<form>
+   
     <div class="form-group">
         <label for="loja"><strong>Loja</strong></label>
-        <input type="text" asp-for="NomeLoja" class="form-control" placeholder="Digite o nome da loja">
-        @Html.ValidationMessageFor(n => n.NomeLoja)
+        <input type="text" class="form-control" placeholder="Digite o nome da loja">
+       @* <!--linha de código para mostar ao usuário uma menssagem de erro-->
+        @Html.ValidationMessageFor(n => n.NomeLoja)*@
     </div>
     <div class="form-group">
         <label for="localizacao"><strong>Localização</strong></label>
-        <input type="text" asp-for="Localizacao" class="form-control" placeholder="Digite o endereço da loja">
-        @Html.ValidationMessageFor(l => l.Localizacao)
+        <input type="text" class="form-control" placeholder="Digite o endereço da loja">
+        @* @Html.ValidationMessageFor(l => l.Localizacao)*@
     </div>
     <div class="form-group">
         <label for="telefone"><strong>Telefone</strong></label>
-        <input type="text" asp-for="Telefone" class="form-control" placeholder="Digite o telefone">
-        @Html.ValidationMessageFor(t => t.Telefone)
+        <input type="text" class="form-control" placeholder="Digite o telefone">
+        @* @Html.ValidationMessageFor(t => t.Telefone)*@
     </div>
     <div>
-        <button type="submit" class="btn btn-dark ">Atualizar Informações</button>
-        <a class="btn btn-secondary " asp-action="Index" asp-controller="Lojas" role="button">Voltar</a>
+        <button type="submit" class="btn btn-success ">Alterar</button>
+        <a class="btn btn-dark " asp-controller="Lojas" asp-action="Index" role="button">Voltar</a>     
     </div>
-
 </form>
-
-    <div>
-        <table class="table" id="tabelaProdutos">
-            <thead>
-                <tr>
-                     <th scope="col">Id</th>
-                    <th scope="col">Nome</th>
-                    <th scope="col">Tamanho</th>
-                    <th scope="col">Cor</th>
-                    <th scope="col">Valor</th>
-                </tr>
-            </thead>
-            <tbody>
-                @if (Model != null && Model.Produtos.Any())
-                {
-                    foreach (ProdutosModel produtos in Model.Produtos)
-                    {
-                        <tr>
-                            <th scope="row">@produtos.Id</th>
-                            <td>@produtos.Nome</td>
-                            <td>@produtos.Tamanho</td>
-                            <td>@produtos.Cor</td>
-                            <td>@produtos.Valor</td>
-                            <td>
-                                <div class="btn-group" role="group">
-                                    <a role="button" class="btn btn-success" asp-route-id="@produtos.Id" asp-controller="Lojas" asp-action="Editar">Editar</a>
-                                    <a role="button" class="btn btn-dark" asp-route-id="@produtos.Id" asp-controller="Lojas" asp-action="ApagarConfirmar">Apagar</a>
-                                </div>
-                            </td>
-
-                        </tr>
-                    }
-                }
-
-                <br></br>
-                <tr>
-                    <td>
-
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <a class="btn btn-warning" role="button" asp-controller="Lojas" asp-action="Cadastrar"><strong>Cadastrar Loja</strong></a>
-                        </div>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>

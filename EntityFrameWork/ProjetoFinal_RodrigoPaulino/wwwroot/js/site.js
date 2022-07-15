@@ -2,14 +2,3 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
-
-
-//chamada do datatable 
-$(document).ready(function () {
-    $('#myTable').DataTable();
-});
-
-$('.close-alert').click(function ()
-{
-    $('.alert').hide('hide');
-});
