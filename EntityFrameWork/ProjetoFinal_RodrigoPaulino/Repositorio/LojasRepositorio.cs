@@ -20,7 +20,7 @@ namespace ProjetoFinal_RodrigoPaulino.Repositorio
         {
             _bancoContext = bancoContext;
         }
-
+ 
         /// <summary>
         /// esse método carrega toda a lista de lojas do banco de dados
         /// </summary>
@@ -30,12 +30,47 @@ namespace ProjetoFinal_RodrigoPaulino.Repositorio
             return _bancoContext.Lojas.ToList();
         }
 
+        /// <summary>
+        /// Método para buscarmos o id do banco de dados
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        /// <exception cref="NotImplementedException"></exception>
+        public LojasModel BuscarId(int id)
+        {
+            //retornamos uma busca pelo primeiro
+            //ou unico registro do banco passando uma
+            //expressao lambda
+            return _bancoContext.Lojas.FirstOrDefault(x=> x.Id == id);
+        }
+
         public LojasModel Cadastrar(LojasModel lojas)
         {
             //gravar no banco de dados
             _bancoContext.Lojas.Add(lojas);
             _bancoContext.SaveChanges();
             return lojas;
+        }
+
+        public LojasModel Atualizar(LojasModel lojas)
+        {
+            //criamos uma varável lojasDb buscando o id da loja
+            LojasModel lojasDB = BuscarId(lojas.Id);
+            //criamos uma condição se a lojaDb for nula mostramos uma menssagem de erro 
+            if (lojasDB == null) throw new Exception("Erro ao atualizar!\n Tente novamente");
+
+            //se ele nao for nulo pegamos o dados do banco recebendo 
+            //os dados quem vem da model
+            lojasDB.Nome = lojas.Nome;
+            lojasDB.Localizacao = lojas.Localizacao;
+            lojasDB.Seguimento = lojas.Seguimento;
+            lojasDB.Telefone = lojas.Telefone;
+            //update no banco de dados
+            _bancoContext.Lojas.Update(lojasDB);
+            //salva as alteraçoes
+            _bancoContext.SaveChanges();
+            //retorna ao banco
+            return lojasDB;
         }
     }
 }

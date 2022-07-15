@@ -1,4 +1,4 @@
-﻿
+﻿@model LojasModel
 
 <!--
     Sétimo passo
@@ -12,27 +12,33 @@
 <div class="text-center">
     <h1 class="display-4">Editar Cadastro</h1>
 </div>
-
-<form>
-   
+<!--passando as rotas para o método de edição-->
+<form asp-controller="Lojas" asp-action="Alterar" method="post">
+    <!--colocamos o id invisivel para receber o id de forma oculta-->
+   <input type="hidden" asp-for="Id"/>
     <div class="form-group">
         <label for="loja"><strong>Loja</strong></label>
-        <input type="text" class="form-control" placeholder="Digite o nome da loja">
+        <input type="text" asp-for="Nome" class="form-control" placeholder="Digite o nome da loja">
        @* <!--linha de código para mostar ao usuário uma menssagem de erro-->
         @Html.ValidationMessageFor(n => n.NomeLoja)*@
     </div>
     <div class="form-group">
         <label for="localizacao"><strong>Localização</strong></label>
-        <input type="text" class="form-control" placeholder="Digite o endereço da loja">
+        <input type="text" asp-for="Localizacao" class="form-control" placeholder="Digite o endereço da loja">
         @* @Html.ValidationMessageFor(l => l.Localizacao)*@
     </div>
     <div class="form-group">
+        <label for="telefone"><strong>Seguimento</strong></label>
+        <input type="text" asp-for="Seguimento" class="form-control" placeholder=" Digite o seguimento da loja">
+        @* @Html.ValidationMessageFor(t => t.Telefone)*@
+    </div>
+    <div class="form-group">
         <label for="telefone"><strong>Telefone</strong></label>
-        <input type="text" class="form-control" placeholder="Digite o telefone">
+        <input type="text" asp-for="Telefone" class="form-control" placeholder="Digite o telefone">
         @* @Html.ValidationMessageFor(t => t.Telefone)*@
     </div>
     <div>
-        <button type="submit" class="btn btn-success ">Alterar</button>
-        <a class="btn btn-dark " asp-controller="Lojas" asp-action="Index" role="button">Voltar</a>     
+        <button type="submit" class="btn btn-dark ">Editar Informações</button>
+        <a class="btn btn-secondary " asp-action="Index" asp-controller="Lojas" role="button">Voltar</a>
     </div>
 </form>

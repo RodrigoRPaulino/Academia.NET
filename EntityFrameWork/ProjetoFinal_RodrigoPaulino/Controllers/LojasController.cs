@@ -44,13 +44,34 @@ namespace ProjetoFinal_RodrigoPaulino.Controllers
         //depois de terminar o método de cadastrar vamos a program para configurar
         //a injeção de dependencia da ILojasRepositório   
 
-        public IActionResult Editar()
+        /// <summary>
+        /// passar para o método de ediçao o id de que ele ira editar
+        /// </summary>
+        /// <returns></returns>
+        public IActionResult Editar(int id)
         {
-            return View();
+            //variável com o método de buscar o id
+           LojasModel lojas = _lojasRepositorio.BuscarId(id);
+            //retornamos na view o id do banco 
+            return View(lojas);
         }
         public IActionResult ApagarConfirmacao()
         {
             return View();
+        }
+
+
+        /// <summary>
+        /// depois de fazer o método de edição
+        /// crio o método de alterar a loja
+        /// </summary>
+        /// <param name="lojas"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public IActionResult Alterar(LojasModel lojas)
+        {
+            _lojasRepositorio.Atualizar(lojas);
+            return RedirectToAction("Index");
         }
 
 

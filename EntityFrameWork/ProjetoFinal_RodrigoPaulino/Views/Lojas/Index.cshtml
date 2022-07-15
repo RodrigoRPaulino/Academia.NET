@@ -21,8 +21,10 @@
             </tr>
         </thead>
         <tbody>
+            <!--inicio uma condição se o model for nula e contiver  alguma coisa-->
             @if (Model != null && Model.Any())
             {
+                <!--Laço de repetição -->
                 @foreach (LojasModel lojas in Model)
                 {
                     <tr>
