@@ -1,10 +1,11 @@
-﻿@{
+﻿@model LojasModel
+@{
     ViewData["Title"] = "Confirmar Exclusão";
 }
 
 <div class="text-center">
-    <h3>Deseja excluir a loja selecionada(@*@Model.NomeLoja*@)? </h3>
+    <h3>Deseja excluir a loja selecionada(@Model.Nome)? </h3>
 </div>
 <!--botoes com rotas para cancelar e apagar os registros do banco-->
 <a class="btn btn-dark" role="button" asp-controller="Lojas" asp-action="Index">Cancelar exclusão</a>
-<a class=" btn btn-danger"role="button" asp-controller="Lojas" asp-action="ApagarConfirmacao">Confirmar exclusão</a>
+<a class=" btn btn-danger"role="button" asp-controller="Lojas" asp-route-id="@Model.Id" asp-action="Apagar">Confirmar exclusão</a>

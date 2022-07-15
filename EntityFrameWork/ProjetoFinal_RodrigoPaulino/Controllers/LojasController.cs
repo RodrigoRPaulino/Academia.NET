@@ -55,11 +55,6 @@ namespace ProjetoFinal_RodrigoPaulino.Controllers
             //retornamos na view o id do banco 
             return View(lojas);
         }
-        public IActionResult ApagarConfirmacao()
-        {
-            return View();
-        }
-
 
         /// <summary>
         /// depois de fazer o método de edição
@@ -73,6 +68,47 @@ namespace ProjetoFinal_RodrigoPaulino.Controllers
             _lojasRepositorio.Atualizar(lojas);
             return RedirectToAction("Index");
         }
+
+        /// <summary>
+        /// método para confirmação de deleção
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public IActionResult ApagarConfirmacao(int id)
+        {
+            LojasModel lojas = _lojasRepositorio.BuscarId(id);
+            return View(lojas);
+        }
+
+
+        public IActionResult Apagar(int id) 
+        {
+            //try
+            //{
+            //    bool apagado = _repositorioLojas.Apagar(id);
+            //    if (apagado)
+            //    {
+            //        TempData["MenssagemSucesso"] = "Informações apagadas com sucesso";
+            //    }
+            //    else
+            //    {
+            //        TempData["MenssagemErro"] = $"Erro ao apagar as informações, tente novamente mais tarde";
+            //    }
+            //    return RedirectToAction("Index");
+            //}
+            //catch (Exception erro)
+            //{
+
+            //    TempData["MenssagemErro"] = $"Erro ao apagar as informações, tente novamente mais tarde,{erro.Message}";
+            //    //retorno redirecionando a index 
+            //    return RedirectToAction("Index");
+            //}
+            _lojasRepositorio.Apagar(id);
+         return RedirectToAction("Index");
+        }
+
+
+       
 
 
     }

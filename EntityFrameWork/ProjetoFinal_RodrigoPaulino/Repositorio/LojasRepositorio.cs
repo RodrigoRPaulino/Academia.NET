@@ -72,5 +72,28 @@ namespace ProjetoFinal_RodrigoPaulino.Repositorio
             //retorna ao banco
             return lojasDB;
         }
+
+        /// <summary>
+        /// método que apaga de fato do banco de dados
+        /// usando o id como parametro de entrada
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        /// <exception cref="System.Exception"></exception>
+        public bool Apagar(int id) 
+        {
+            //buscamos o id a ser deletado
+            LojasModel lojasDB = BuscarId(id);
+            //condição onde se a loja for nula mostra a mensagem de erro
+            if (lojasDB == null) throw new Exception("Não foi possivel excluir a loja selecionada.\n Tente novamente");
+            // remoção do banco
+            _bancoContext.Lojas.Remove(lojasDB);
+            // grava as alterações
+            _bancoContext.SaveChanges();
+            return true;
+        }
+        
+           
+        
     }
 }

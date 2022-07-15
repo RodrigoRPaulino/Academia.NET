@@ -42,5 +42,13 @@ namespace ProjetoFinal_RodrigoPaulino.Repositorio
         /// <param name="lojas"></param>
         /// <returns></returns>
         LojasModel Atualizar(LojasModel lojas);
+        
+        /// <summary>
+        /// método para apagar  um registro do banco
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        bool Apagar(int id);
+        
     }
 }
