@@ -38,8 +38,27 @@ namespace ProjetoFinal_RodrigoPaulino.Controllers
         [HttpPost]
         public IActionResult Cadastrar(LojasModel lojas)
         {
-            _lojasRepositorio.Cadastrar(lojas);
-            return RedirectToAction("Index");
+            try
+            {
+                //criando condição : se o valor da modelstate for valida o if ira passar os comandos de cadastro
+                if (ModelState.IsValid)
+                {
+                    _lojasRepositorio.Cadastrar(lojas);
+                    // criando menssagem temporária para exibir o exito no cadastro
+                    TempData["MenssagemSucesso"] = "Cadastro realizado com sucesso";
+                    //retorno redirecionando a index 
+                    return RedirectToAction("Index");
+                }
+                return View(lojas);
+            }
+            catch (Exception erro)
+            {
+
+                TempData["MenssagemErro"] = $"Erro ao efetuar o cadastro, tente novamente mais tarde, {erro.Message}";
+                //retorno redirecionando a index 
+                return RedirectToAction("Index");
+            }
+
         }
         //depois de terminar o método de cadastrar vamos a program para configurar
         //a injeção de dependencia da ILojasRepositório   
@@ -65,8 +84,26 @@ namespace ProjetoFinal_RodrigoPaulino.Controllers
         [HttpPost]
         public IActionResult Alterar(LojasModel lojas)
         {
-            _lojasRepositorio.Atualizar(lojas);
-            return RedirectToAction("Index");
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    _lojasRepositorio.Atualizar(lojas);
+                    TempData["MenssagemSucesso"] = "Alterações realizadas com sucesso";
+                    //retorno redirecionando a index 
+                    return RedirectToAction("Index");
+                }
+                //forçamos o retorno da view 
+                return View("Editar", lojas);
+            }
+            catch (Exception erro)
+            {
+
+                TempData["MenssagemErro"] = $"Erro ao alterar as informações, tente novamente mais tarde, {erro.Message}";
+                //retorno redirecionando a index 
+                return RedirectToAction("Index");
+            }
+
         }
 
         /// <summary>
@@ -83,28 +120,27 @@ namespace ProjetoFinal_RodrigoPaulino.Controllers
 
         public IActionResult Apagar(int id) 
         {
-            //try
-            //{
-            //    bool apagado = _repositorioLojas.Apagar(id);
-            //    if (apagado)
-            //    {
-            //        TempData["MenssagemSucesso"] = "Informações apagadas com sucesso";
-            //    }
-            //    else
-            //    {
-            //        TempData["MenssagemErro"] = $"Erro ao apagar as informações, tente novamente mais tarde";
-            //    }
-            //    return RedirectToAction("Index");
-            //}
-            //catch (Exception erro)
-            //{
+            try
+            {
+                bool apagado = _lojasRepositorio.Apagar(id);
+                if (apagado)
+                {
+                    TempData["MenssagemSucesso"] = "Informações apagadas com sucesso";
+                }
+                else
+                {
+                    TempData["MenssagemErro"] = $"Erro ao apagar as informações, tente novamente mais tarde";
+                }
+                return RedirectToAction("Index");
+            }
+            catch (Exception erro)
+            {
 
-            //    TempData["MenssagemErro"] = $"Erro ao apagar as informações, tente novamente mais tarde,{erro.Message}";
-            //    //retorno redirecionando a index 
-            //    return RedirectToAction("Index");
-            //}
-            _lojasRepositorio.Apagar(id);
-         return RedirectToAction("Index");
+                TempData["MenssagemErro"] = $"Erro ao apagar as informações, tente novamente mais tarde,{erro.Message}";
+                //retorno redirecionando a index 
+                return RedirectToAction("Index");
+            }
+            
         }
 
 

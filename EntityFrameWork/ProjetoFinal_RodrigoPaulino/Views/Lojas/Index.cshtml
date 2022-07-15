@@ -6,6 +6,23 @@
 
 <h1> Lista de Lojas</h1>
 
+@if (TempData["MenssagemSucesso"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+       
+        @TempData["MenssagemSucesso"]
+    </div>
+}
+@if (TempData["MenssagemErro"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+    <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+   
+</div>
+}
+<br></br>
+
 <!--div para deixar o texto e a tabelas no centro da tela-->
 <div class="text-center">
     <!--Criacão da tabela Provisória de lojas(serao inseridas pelo banco)-->
@@ -37,7 +54,7 @@
                             <!--div com botoes para editar e apagar as lojas-->
                             <div class="btn-group" role="group">
                                 <a role="button" class="btn btn-success" asp-route-id="@lojas.Id" asp-controller="Lojas" asp-action="Editar">Editar</a>
-                                <a role="button" class="btn btn-dark"asp-route-id="@lojas.Id" asp-controller="Lojas" asp-action="ApagarConfirmacao">Apagar</a>
+                                <a role="button" class="btn btn-dark" asp-route-id="@lojas.Id" asp-controller="Lojas" asp-action="ApagarConfirmacao">Apagar</a>
                             </div>
                         </td>
                     </tr>
@@ -55,6 +72,7 @@
     <!--Tracando a rota do botão cadastrar na controller Lojas com a acão de Cadastrar-->
     <a class="btn btn-warning" role="button" asp-controller="Lojas" asp-action="Cadastrar"><strong>Cadastrar Loja</strong></a>
 </div>
+
 
 
 
