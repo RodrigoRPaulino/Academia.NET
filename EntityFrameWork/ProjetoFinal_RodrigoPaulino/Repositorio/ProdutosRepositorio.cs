@@ -7,13 +7,13 @@ namespace ProjetoFinal_RodrigoPaulino.Repositorio
     /// </summary>
     public class ProdutosRepositorio
     {
-        public ProdutosModel CadastrarProdutos(ProdutosModel produtos)
-        {
-            //gravar no banco de dados
-            _bancoContext.Produtos.Add(produtos);
-            _bancoContext.SaveChanges();
-            return produtos;
-        }
+        //public ProdutosModel CadastrarProdutos(ProdutosModel produtos)
+        //{
+        //    ////gravar no banco de dados
+        //    //_bancoContext.Produtos.Add(produtos);
+        //    //_bancoContext.SaveChanges();
+        //    //return produtos;
+        //}
 
-    }
+    } 
 }
