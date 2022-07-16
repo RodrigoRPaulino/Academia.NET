@@ -1,6 +1,7 @@
 ﻿
 
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProjetoFinal_RodrigoPaulino.Models
 {
@@ -10,6 +11,8 @@ namespace ProjetoFinal_RodrigoPaulino.Models
     /// </summary>
     public class LojasModel
     {
+        
+        [Key]
         public int Id { get; set; }
         /// <summary>
         /// validando os campos como obrigatórios

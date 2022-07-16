@@ -49,6 +49,50 @@ namespace ProjetoFinal_RodrigoPaulino.Migrations
 
                     b.ToTable("Lojas");
                 });
+
+            modelBuilder.Entity("ProjetoFinal_RodrigoPaulino.Models.ProdutosModel", b =>
+                {
+                    b.Property<int>("IdProduto")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdProduto"), 1L, 1);
+
+                    b.Property<string>("Cor")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.Property<string>("NomeProduto")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Tamanho")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("Valor")
+                        .HasColumnType("float");
+
+                    b.HasKey("IdProduto");
+
+                    b.HasIndex("Id");
+
+                    b.ToTable("Produtos");
+                });
+
+            modelBuilder.Entity("ProjetoFinal_RodrigoPaulino.Models.ProdutosModel", b =>
+                {
+                    b.HasOne("ProjetoFinal_RodrigoPaulino.Models.LojasModel", "Lojas")
+                        .WithMany()
+                        .HasForeignKey("Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Lojas");
+                });
 #pragma warning restore 612, 618
         }
     }

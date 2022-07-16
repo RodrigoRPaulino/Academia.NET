@@ -1,0 +1,49 @@
+﻿@model ProdutosModel
+
+@{
+    ViewData["Title"] = "Cadastro de Produtos";
+}
+
+
+
+ 
+<div>
+    <h4 class="display-4">Cadastro de Produtos</h4>
+</div>
+<br></br>
+ 
+<!--quando clicar em cadastrar ele vai pegar o controlador e como açao ele vai cadastrar e postar -->
+<form asp-controller="Produtos" asp-action="Index" method="post">
+   
+    <div class="form-group">
+        <label for=""><strong>Loja</strong></label>
+        <input type="text" asp-for="Lojas" class="form-control" placeholder="Digite o nome da loja">
+        <!--linha de código para mostar ao usuário uma menssagem de erro-->
+        @*@Html.ValidationMessageFor(n => n.Nome)*@
+    </div>
+    <div class="form-group">
+        <label for="localizacao"><strong>Produto</strong></label>
+        <input type="text" asp-for="NomeProduto" class="form-control" placeholder="Informe o produto">
+         @*@Html.ValidationMessageFor(l => l.Localizacao)*@
+    </div>
+    <div class="form-group">
+        <label for="telefone"><strong>Tamanho</strong></label>
+        <input type="text" asp-for="Tamanho" class="form-control" placeholder="Tamanhos">
+        @* @Html.ValidationMessageFor(s => s.Seguimento)*@
+    </div>
+    <div class="form-group">
+        <label for="telefone"><strong>Cores</strong></label>
+        <input type="text" asp-for="Cor" class="form-control" placeholder="Cor">
+        @* @Html.ValidationMessageFor(t => t.Telefone)*@
+    </div>
+     <div class="form-group">
+        <label for="telefone"><strong>Valor</strong></label>
+        <input type="text" asp-for="Valor" class="form-control" placeholder="Valor Unitário">
+        @* @Html.ValidationMessageFor(t => t.Telefone)*@
+    </div>
+    <div>
+        <button type="submit" class="btn btn-success ">Cadastrar Produto</button>
+        <a class="btn btn-dark " asp-controller="Lojas" asp-action="Index" role="button">Voltar</a>     
+    </div>
+    
+</form>
