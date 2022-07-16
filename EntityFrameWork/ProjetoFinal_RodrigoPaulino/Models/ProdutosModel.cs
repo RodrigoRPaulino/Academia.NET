@@ -11,7 +11,7 @@ namespace ProjetoFinal_RodrigoPaulino.Models
        
         public int Id { get; set; }
         [ForeignKey("Id")]
-        public LojasModel Lojas { get; set; }
+        //public LojasModel Lojas { get; set; }
         public string NomeProduto { get; set; }
         public string Tamanho { get; set; }
         public string Cor { get; set; }

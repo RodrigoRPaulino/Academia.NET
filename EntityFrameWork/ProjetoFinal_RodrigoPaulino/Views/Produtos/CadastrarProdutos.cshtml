@@ -3,9 +3,6 @@
 @{
     ViewData["Title"] = "Cadastro de Produtos";
 }
-
-
-
  
 <div>
     <h4 class="display-4">Cadastro de Produtos</h4>
@@ -17,7 +14,7 @@
    
     <div class="form-group">
         <label for=""><strong>Loja</strong></label>
-        <input type="text" asp-for="Lojas" class="form-control" placeholder="Digite o nome da loja">
+        <input type="text" asp-for="IdProduto" class="form-control" placeholder="Digite o nome da loja">
         <!--linha de código para mostar ao usuário uma menssagem de erro-->
         @*@Html.ValidationMessageFor(n => n.Nome)*@
     </div>
@@ -32,7 +29,7 @@
         @* @Html.ValidationMessageFor(s => s.Seguimento)*@
     </div>
     <div class="form-group">
-        <label for="telefone"><strong>Cores</strong></label>
+        <label for="telefone"><strong>Cor</strong></label>
         <input type="text" asp-for="Cor" class="form-control" placeholder="Cor">
         @* @Html.ValidationMessageFor(t => t.Telefone)*@
     </div>
@@ -43,7 +40,7 @@
     </div>
     <div>
         <button type="submit" class="btn btn-success ">Cadastrar Produto</button>
-        <a class="btn btn-dark " asp-controller="Lojas" asp-action="Index" role="button">Voltar</a>     
+        <a class="btn btn-dark " asp-controller="Produtos" asp-action="Index" role="button">Voltar</a>     
     </div>
     
 </form>

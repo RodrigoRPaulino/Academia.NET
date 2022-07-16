@@ -1,12 +1,17 @@
-﻿using ProjetoFinal_RodrigoPaulino.Models;
+﻿using ProjetoFinal_RodrigoPaulino.Data;
+using ProjetoFinal_RodrigoPaulino.Models;
 
 namespace ProjetoFinal_RodrigoPaulino.Repositorio
 {
-    /// <summary>
-    /// eu crio os métodos
-    /// </summary>
-    public interface IProdutosRepositorio
+  public interface IProdutosRepositorio 
     {
+        ProdutosModel BuscarIdProduto();
+        List<ProdutosModel> BuscarTodos();
+        ProdutosModel AtualizarProduto(ProdutosModel produtos);
         ProdutosModel CadastrarProdutos(ProdutosModel produtos);
+        ProdutosModel EditarProdutos(ProdutosModel produtos);
+      
+
+       
     }
 }
