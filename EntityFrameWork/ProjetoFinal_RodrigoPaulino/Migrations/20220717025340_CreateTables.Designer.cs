@@ -11,8 +11,8 @@ using ProjetoFinal_RodrigoPaulino.Data;
 namespace ProjetoFinal_RodrigoPaulino.Migrations
 {
     [DbContext(typeof(BancoContext))]
-    [Migration("20220716042645_CreateTableLojasEProdutos")]
-    partial class CreateTableLojasEProdutos
+    [Migration("20220717025340_CreateTables")]
+    partial class CreateTables
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -64,9 +64,6 @@ namespace ProjetoFinal_RodrigoPaulino.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Id")
-                        .HasColumnType("int");
-
                     b.Property<string>("NomeProduto")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -80,20 +77,7 @@ namespace ProjetoFinal_RodrigoPaulino.Migrations
 
                     b.HasKey("IdProduto");
 
-                    b.HasIndex("Id");
-
                     b.ToTable("Produtos");
-                });
-
-            modelBuilder.Entity("ProjetoFinal_RodrigoPaulino.Models.ProdutosModel", b =>
-                {
-                    b.HasOne("ProjetoFinal_RodrigoPaulino.Models.LojasModel", "Lojas")
-                        .WithMany()
-                        .HasForeignKey("Id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Lojas");
                 });
 #pragma warning restore 612, 618
         }

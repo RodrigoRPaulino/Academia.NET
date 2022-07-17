@@ -62,9 +62,6 @@ namespace ProjetoFinal_RodrigoPaulino.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Id")
-                        .HasColumnType("int");
-
                     b.Property<string>("NomeProduto")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -78,20 +75,7 @@ namespace ProjetoFinal_RodrigoPaulino.Migrations
 
                     b.HasKey("IdProduto");
 
-                    b.HasIndex("Id");
-
                     b.ToTable("Produtos");
-                });
-
-            modelBuilder.Entity("ProjetoFinal_RodrigoPaulino.Models.ProdutosModel", b =>
-                {
-                    b.HasOne("ProjetoFinal_RodrigoPaulino.Models.LojasModel", "Lojas")
-                        .WithMany()
-                        .HasForeignKey("Id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Lojas");
                 });
 #pragma warning restore 612, 618
         }

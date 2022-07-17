@@ -9,10 +9,10 @@ namespace ProjetoFinal_RodrigoPaulino.Models
     /// oitavo passo
     /// depois de criar o front-end comecamos a criar a classe de lojas para iniciar o back-end
     /// </summary>
+    [Table("Lojas")]
     public class LojasModel
     {
-        
-        [Key]
+        [Key()]
         public int Id { get; set; }
         /// <summary>
         /// validando os campos como obrigatórios

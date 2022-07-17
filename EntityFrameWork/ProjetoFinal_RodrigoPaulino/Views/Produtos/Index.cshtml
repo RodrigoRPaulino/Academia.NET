@@ -3,20 +3,75 @@
 @{
     <h4>Ta funcionando só falta gravar no banco </h4>
 }
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col"></th>
-      <th scope="col"></th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+@if (TempData["MenssagemSucesso"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+       
+        @TempData["MenssagemSucesso"]
+    </div>
+}
+@if (TempData["MenssagemErro"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+    <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+   
+</div>
+}
+<br></br>
+
+
+<!--div para deixar o texto e a tabelas no centro da tela-->
+<div class="text-center">
+    <!--Criacão da tabela Provisória de lojas(serao inseridas pelo banco)-->
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome do Produto</th>
+                <th scope="col">Tamanho</th>
+                <th scope="col">Cor</th>
+                <th scope="col">Valor</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <!--inicio uma condição se o model for nula e contiver  alguma coisa-->
+            @if (Model != null && Model.Any())
+            {
+                <!--Laço de repetição -->
+                @foreach (ProdutosModel produtos in Model)
+                {
+                    <tr>
+                        <th scope="row">@produtos.IdProduto</th>
+                        <td>@produtos.NomeProduto</td>
+                        <td>@produtos.Tamanho</td>
+                        <td>@produtos.Cor</td>
+                        <td>@produtos.Valor</td>
+                        <td>
+                            <!--div com botoes para editar e apagar as lojas-->
+                            <div class="btn-group" role="group">
+                                <a role="button" class="btn btn-success" asp-route-id="@produtos.IdProduto" asp-controller="Produtos" asp-action="Editar">Editar</a>
+                                <a role="button" class="btn btn-dark" asp-route-id="@produtos.IdProduto" asp-controller="Produtos" asp-action="ApagarConfirmacao">Apagar</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+
+            }
+
+        </tbody>
+    </table>
+</div>
+<!--Quebra linha-->
+<br></br>
+<!--Botão para redirecionar para a tela de novos cadastros de lojas-->
+<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+    <!--Tracando a rota do botão cadastrar na controller Lojas com a acão de Cadastrar-->
+    <a class="btn btn-warning" role="button" asp-controller="Lojas" asp-action="Cadastrar"><strong>Cadastrar Loja</strong></a>
+</div>
+<br>
+<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+    <!--Tracando a rota do botão cadastrar na controller Lojas com a acão de Cadastrar-->
+    <a class="btn btn-success" role="button" asp-controller="Produtos" asp-action="CadastrarProdutos"><strong>Cadastrar Produtos</strong></a>
+</div>

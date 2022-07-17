@@ -5,11 +5,13 @@ namespace ProjetoFinal_RodrigoPaulino.Repositorio
 {
   public interface IProdutosRepositorio 
     {
-        ProdutosModel BuscarIdProduto();
+        ProdutosModel BuscarIdProduto( int id);
         List<ProdutosModel> BuscarTodos();
-        ProdutosModel AtualizarProduto(ProdutosModel produtos);
+        ProdutosModel AtualizarProdutos(ProdutosModel produtos);
         ProdutosModel CadastrarProdutos(ProdutosModel produtos);
-        ProdutosModel EditarProdutos(ProdutosModel produtos);
+        ProdutosModel EditarProdutos(int id);
+        bool ApagarProdutos(int id);
+       
       
 
        

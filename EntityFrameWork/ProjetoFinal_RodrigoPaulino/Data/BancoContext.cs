@@ -23,7 +23,6 @@ namespace ProjetoFinal_RodrigoPaulino.Data
         /// configurando LojasModel pra dentro do banco
         /// </summary>
         public DbSet<LojasModel> Lojas { get; set; }
-
         public DbSet<ProdutosModel> Produtos { get; set; }
     }
 }
